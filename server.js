@@ -5,7 +5,8 @@ const express = require("express");
 const cors = require("cors");
 const admin = require("firebase-admin");
 const fs = require("fs");
-
+const geminiApiKey=process.env.GEMINI_API_KEY;
+console.log("Gemini API Key:",geminiApiKey);
 // Initialize Express app
 const app = express();
 const PORT = process.env.PORT || 5000;
