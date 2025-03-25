@@ -1,0 +1,1659 @@
+[
+  {
+    "videoId": "aIy46jQsDLM",
+    "title": "Full Stack Developer in 6 Months",
+    "thumbnail": "https://i.ytimg.com/vi/aIy46jQsDLM/default.jpg",
+    "mainCourse": "Tech & Programming",
+    "subCourse": "Full Stack Web Development",
+    "level": "beginner",
+    "duration": "short",
+    "language": "English"
+  },
+  {
+    "videoId": "QaU6gEtOwyE",
+    "title": "Roadmap to Web Development | for Students",
+    "thumbnail": "https://i.ytimg.com/vi/QaU6gEtOwyE/default.jpg",
+    "mainCourse": "Tech & Programming",
+    "subCourse": "Full Stack Web Development",
+    "level": "beginner",
+    "duration": "short",
+    "language": "English"
+  },
+  {
+    "videoId": "GxmfcnU3feo",
+    "title": "The Complete Web Development Roadmap",
+    "thumbnail": "https://i.ytimg.com/vi/GxmfcnU3feo/default.jpg",
+    "mainCourse": "Tech & Programming",
+    "subCourse": "Full Stack Web Development",
+    "level": "intermediate",
+    "duration": "medium",
+    "language": "English"
+  },
+  {
+    "videoId": "nu_pCVPKzTk",
+    "title": "Full Stack Web Development for Beginners (Full Course on HTML, CSS, JavaScript, Node.js, MongoDB)",
+    "thumbnail": "https://i.ytimg.com/vi/nu_pCVPKzTk/default.jpg",
+    "mainCourse": "Tech & Programming",
+    "subCourse": "Full Stack Web Development",
+    "level": "beginner",
+    "duration": "long",
+    "language": "English"
+  },
+  {
+    "videoId": "wS974JC_CoE",
+    "title": "What is Full Stack Development with Full Information? – [Hindi] – Quick Support",
+    "thumbnail": "https://i.ytimg.com/vi/wS974JC_CoE/default.jpg",
+    "mainCourse": "Tech & Programming",
+    "subCourse": "Full Stack Web Development",
+    "level": "beginner",
+    "duration": "short",
+    "language": "Hindi"
+  },
+  {
+    "videoId": "a1sG_VMl7H8",
+    "title": "Get 5 Lakh+ Job After Doing This Masai School Full Stack Web Development Course! in Hindi !",
+    "thumbnail": "https://i.ytimg.com/vi/a1sG_VMl7H8/default.jpg",
+    "mainCourse": "Tech & Programming",
+    "subCourse": "Full Stack Web Development",
+    "level": "beginner",
+    "duration": "medium",
+    "language": "Hindi"
+  }
+]
+[
+  {
+  "title": "Machine Learning | What Is Machine Learning? | Introduction To Machine Learning | 2024 | Simplilearn",
+  "videoId": "ukzFI9rgwfU",
+  "thumbnail": "https://i.ytimg.com/vi/ukzFI9rgwfU/hqdefault.jpg",
+  "mainCourse": "Tech & Programming",
+  "subCourse": "Data Science and Machine Learning",
+  "level": "Beginner",
+  "duration": "Short",
+  "language": "English"
+  },
+  {
+  "title": "What is Data Science?",
+  "videoId": "RBSUwFGa6Fk",
+  "thumbnail": "https://i.ytimg.com/vi/RBSUwFGa6Fk/hqdefault.jpg",
+  "mainCourse": "Tech & Programming",
+  "subCourse": "Data Science and Machine Learning",
+  "level": "Beginner",
+  "duration": "Short",
+  "language": "English"
+  },
+  {
+  "title": "What is Data Science? Complete Roadmap to Become a Data Scientist (Get Hired)",
+  "videoId": "VGhZ4f2UggM",
+  "thumbnail": "https://i.ytimg.com/vi/VGhZ4f2UggM/hqdefault.jpg",
+  "mainCourse": "Tech & Programming",
+  "subCourse": "Data Science and Machine Learning",
+  "level": "Beginner",
+  "duration": "Short",
+  "language": "Hindi"
+  },
+  {
+  "title": "Reality behind data science, machine learning jobs",
+  "videoId": "R6u5EBWAssY",
+  "thumbnail": "https://i.ytimg.com/vi/R6u5EBWAssY/hqdefault.jpg",
+  "mainCourse": "Tech & Programming",
+  "subCourse": "Data Science and Machine Learning",
+  "level": "Intermediate",
+  "duration": "Medium",
+  "language": "English"
+  },
+  {
+  "title": "Machine Learning Full Course in Hindi | Learn Machine Learning in 5 Hours | Great Learning",
+  "videoId": "IoZGSQ07e8g",
+  "thumbnail": "https://i.ytimg.com/vi/IoZGSQ07e8g/hqdefault.jpg",
+  "mainCourse": "Tech & Programming",
+  "subCourse": "Data Science and Machine Learning",
+  "level": "Intermediate",
+  "duration": "Medium",
+  "language": "Hindi"
+  },
+  {
+  "title": "Artificial Intelligence Full Course | Artificial Intelligence Tutorial for Beginners | Edureka",
+  "videoId": "JMUxmLyrhSk",
+  "thumbnail": "https://i.ytimg.com/vi/JMUxmLyrhSk/hqdefault.jpg",
+  "mainCourse": "Tech & Programming",
+  "subCourse": "Data Science and Machine Learning",
+  "level": "Beginner",
+  "duration": "Long",
+  "language": "English"
+  },
+  {
+  "title": "Machine Learning Full Course - Learn Machine Learning 10 Hours | Machine Learning Tutorial | Edureka",
+  "videoId": "GwIo3gDZCVQ",
+  "thumbnail": "https://i.ytimg.com/vi/GwIo3gDZCVQ/hqdefault.jpg",
+  "mainCourse": "Tech & Programming",
+  "subCourse": "Data Science and Machine Learning",
+  "level": "Advanced",
+  "duration": "Long",
+  "language": "English"
+  }
+  ]
+  [
+      {
+        "mainCourse": "Tech & Programming",
+        "subCourse": "AI and Deep Learning",
+        "level": "intermediate",
+        "duration": "long",
+        "language": "English",
+        "videoId": "aircAruvnKk",
+        "title": "Neural Networks from Scratch - Full Course with Python | FreeCodeCamp.org",
+        "thumbnail": "https://i.ytimg.com/vi/aircAruvnKk/hqdefault.jpg"
+      },
+      {
+        "mainCourse": "Tech & Programming",
+        "subCourse": "AI and Deep Learning",
+        "level": "advanced",
+        "duration": "long",
+        "language": "English",
+        "videoId": "VwVg9jCtqaU",
+        "title": "Deep Learning with PyTorch - Full Course for Beginners | FreeCodeCamp.org",
+        "thumbnail": "https://i.ytimg.com/vi/VwVg9jCtqaU/hqdefault.jpg"
+      },
+      {
+        "mainCourse": "Tech & Programming",
+        "subCourse": "AI and Deep Learning",
+        "level": "intermediate",
+        "duration": "medium",
+        "language": "Hindi",
+        "videoId": "J8fxHqfAP6U",
+        "title": "Neural Networks in Hindi | Artificial Intelligence Tutorial | CodeWithHarry",
+        "thumbnail": "https://i.ytimg.com/vi/J8fxHqfAP6U/hqdefault.jpg"
+      },
+      {
+        "mainCourse": "Tech & Programming",
+        "subCourse": "AI and Deep Learning",
+        "level": "advanced",
+        "duration": "long",
+        "language": "Hindi",
+        "videoId": "Gfmsvp4V6ZA",
+        "title": "Advanced AI Course with Projects | Neural Networks and Deep Learning in Hindi",
+        "thumbnail": "https://i.ytimg.com/vi/Gfmsvp4V6ZA/hqdefault.jpg"
+      }
+    ]
+    {
+      "Cybersecurity_and_Ethical_Hacking": {
+        "English": {
+          "0-2 Hours": [
+            {
+              "title": "Cybersecurity Fundamentals",
+              "videoId": "example_video_id1",
+              "thumbnail": "https://img.youtube.com/vi/example_video_id1/maxresdefault.jpg",
+              "mainCourse": "Cybersecurity",
+              "subCourse": "Cybersecurity Fundamentals",
+              "level": "Beginner",
+              "duration": "1.5 Hours",
+              "language": "English"
+            },
+            {
+              "title": "Introduction to Ethical Hacking",
+              "videoId": "example_video_id2",
+              "thumbnail": "https://img.youtube.com/vi/example_video_id2/maxresdefault.jpg",
+              "mainCourse": "Ethical Hacking",
+              "subCourse": "Hacking Basics",
+              "level": "Beginner",
+              "duration": "1 Hour",
+              "language": "English"
+            }
+          ],
+          "2-5 Hours": [
+            {
+              "title": "Penetration Testing Basics",
+              "videoId": "example_video_id3",
+              "thumbnail": "https://img.youtube.com/vi/example_video_id3/maxresdefault.jpg",
+              "mainCourse": "Ethical Hacking",
+              "subCourse": "Penetration Testing",
+              "level": "Intermediate",
+              "duration": "4 Hours",
+              "language": "English"
+            },
+            {
+              "title": "Network Security Essentials",
+              "videoId": "example_video_id4",
+              "thumbnail": "https://img.youtube.com/vi/example_video_id4/maxresdefault.jpg",
+              "mainCourse": "Cybersecurity",
+              "subCourse": "Network Security",
+              "level": "Intermediate",
+              "duration": "3.5 Hours",
+              "language": "English"
+            }
+          ],
+          "5+ Hours": [
+            {
+              "title": "Complete Ethical Hacking Course",
+              "videoId": "example_video_id5",
+              "thumbnail": "https://img.youtube.com/vi/example_video_id5/maxresdefault.jpg",
+              "mainCourse": "Ethical Hacking",
+              "subCourse": "Advanced Hacking Techniques",
+              "level": "Advanced",
+              "duration": "7 Hours",
+              "language": "English"
+            },
+            {
+              "title": "Advanced Cybersecurity Certification",
+              "videoId": "example_video_id6",
+              "thumbnail": "https://img.youtube.com/vi/example_video_id6/maxresdefault.jpg",
+              "mainCourse": "Cybersecurity",
+              "subCourse": "Cybersecurity Management",
+              "level": "Advanced",
+              "duration": "10 Hours",
+              "language": "English"
+            }
+          ]
+        },
+        "Hindi": {
+          "0-2 Hours": [
+            {
+              "title": "Ethical Hacking Introduction in Hindi",
+              "videoId": "example_video_id7",
+              "thumbnail": "https://img.youtube.com/vi/example_video_id7/maxresdefault.jpg",
+              "mainCourse": "Ethical Hacking",
+              "subCourse": "Hacking Basics",
+              "level": "Beginner",
+              "duration": "1.5 Hours",
+              "language": "Hindi"
+            },
+            {
+              "title": "Cybersecurity Basics in Hindi",
+              "videoId": "example_video_id8",
+              "thumbnail": "https://img.youtube.com/vi/example_video_id8/maxresdefault.jpg",
+              "mainCourse": "Cybersecurity",
+              "subCourse": "Cybersecurity Fundamentals",
+              "level": "Beginner",
+              "duration": "1 Hour",
+              "language": "Hindi"
+            }
+          ],
+          "2-5 Hours": [
+            {
+              "title": "Practical Hacking in Hindi",
+              "videoId": "example_video_id9",
+              "thumbnail": "https://img.youtube.com/vi/example_video_id9/maxresdefault.jpg",
+              "mainCourse": "Ethical Hacking",
+              "subCourse": "Penetration Testing",
+              "level": "Intermediate",
+              "duration": "3 Hours",
+              "language": "Hindi"
+            },
+            {
+              "title": "Cybersecurity for Beginners in Hindi",
+              "videoId": "example_video_id10",
+              "thumbnail": "https://img.youtube.com/vi/example_video_id10/maxresdefault.jpg",
+              "mainCourse": "Cybersecurity",
+              "subCourse": "Cybersecurity Basics",
+              "level": "Intermediate",
+              "duration": "4.5 Hours",
+              "language": "Hindi"
+            }
+          ],
+          "5+ Hours": [
+            {
+              "title": "Complete Ethical Hacking in Hindi",
+              "videoId": "example_video_id11",
+              "thumbnail": "https://img.youtube.com/vi/example_video_id11/maxresdefault.jpg",
+              "mainCourse": "Ethical Hacking",
+              "subCourse": "Advanced Hacking Techniques",
+              "level": "Advanced",
+              "duration": "8 Hours",
+              "language": "Hindi"
+            },
+            {
+              "title": "Cybersecurity Expert Course in Hindi",
+              "videoId": "example_video_id12",
+              "thumbnail": "https://img.youtube.com/vi/example_video_id12/maxresdefault.jpg",
+              "mainCourse": "Cybersecurity",
+              "subCourse": "Cybersecurity Management",
+              "level": "Advanced",
+              "duration": "12 Hours",
+              "language": "Hindi"
+            }
+          ]
+        }
+      }
+    }
+    [
+      {
+        "title": "Blockchain Explained in 5 Minutes",
+        "videoid": "kB5e-gTAl_s",
+        "thumbnail": "https://img.youtube.com/vi/kB5e-gTAl_s/maxresdefault.jpg",
+        "maincourse": "Blockchain and Web3 Development",
+        "subcourse": "Short Videos",
+        "level": "Beginner",
+        "duration": "5 minutes",
+        "language": ["English", "Hindi"]
+      },
+      {
+        "title": "What is Web3?",
+        "videoid": "gp6NfV3WgLQ",
+        "thumbnail": "https://img.youtube.com/vi/gp6NfV3WgLQ/maxresdefault.jpg",
+        "maincourse": "Blockchain and Web3 Development",
+        "subcourse": "Short Videos",
+        "level": "Beginner",
+        "duration": "7 minutes",
+        "language": ["English"]
+      },
+      {
+        "title": "Smart Contracts in 10 Minutes",
+        "videoid": "0ZYaykVxWqc",
+        "thumbnail": "https://img.youtube.com/vi/0ZYaykVxWqc/maxresdefault.jpg",
+        "maincourse": "Blockchain and Web3 Development",
+        "subcourse": "Short Videos",
+        "level": "Intermediate",
+        "duration": "10 minutes",
+        "language": ["English", "Hindi"]
+      },
+      {
+        "title": "Learn Blockchain in 30 Minutes",
+        "videoid": "z7xX0EExg3U",
+        "thumbnail": "https://img.youtube.com/vi/z7xX0EExg3U/maxresdefault.jpg",
+        "maincourse": "Blockchain and Web3 Development",
+        "subcourse": "Medium Videos",
+        "level": "Intermediate",
+        "duration": "30 minutes",
+        "language": ["English"]
+      },
+      {
+        "title": "Web3.0: The Future of Internet",
+        "videoid": "o1mYJcGRJ28",
+        "thumbnail": "https://img.youtube.com/vi/o1mYJcGRJ28/maxresdefault.jpg",
+        "maincourse": "Blockchain and Web3 Development",
+        "subcourse": "Medium Videos",
+        "level": "Intermediate",
+        "duration": "45 minutes",
+        "language": ["English", "Hindi"]
+      },
+      {
+        "title": "Full Blockchain Development Course",
+        "videoid": "bxQZTQTnOxQ",
+        "thumbnail": "https://img.youtube.com/vi/bxQZTQTnOxQ/maxresdefault.jpg",
+        "maincourse": "Blockchain and Web3 Development",
+        "subcourse": "Long Videos",
+        "level": "Advanced",
+        "duration": "4 hours 30 minutes",
+        "language": ["English", "Hindi"]
+      },
+      {
+        "title": "Mastering Web3 Development with Solidity",
+        "videoid": "gyMwXuJrbJQ",
+        "thumbnail": "https://img.youtube.com/vi/gyMwXuJrbJQ/maxresdefault.jpg",
+        "maincourse": "Blockchain and Web3 Development",
+        "subcourse": "Long Videos",
+        "level": "Advanced",
+        "duration": "6 hours",
+        "language": ["English"]
+      }
+    ]
+    [
+      {
+        "title": "Blockchain Explained in 5 Minutes",
+        "videoid": "kB5e-gTAl_s",
+        "thumbnail": "https://img.youtube.com/vi/kB5e-gTAl_s/maxresdefault.jpg",
+        "maincourse": "Blockchain and Web3 Development",
+        "subcourse": "Short Videos",
+        "level": "Beginner",
+        "duration": "5 minutes",
+        "language": ["English", "Hindi"]
+      },
+      {
+        "title": "What is Web3?",
+        "videoid": "gp6NfV3WgLQ",
+        "thumbnail": "https://img.youtube.com/vi/gp6NfV3WgLQ/maxresdefault.jpg",
+        "maincourse": "Blockchain and Web3 Development",
+        "subcourse": "Short Videos",
+        "level": "Beginner",
+        "duration": "7 minutes",
+        "language": ["English"]
+      },
+      {
+        "title": "Smart Contracts in 10 Minutes",
+        "videoid": "0ZYaykVxWqc",
+        "thumbnail": "https://img.youtube.com/vi/0ZYaykVxWqc/maxresdefault.jpg",
+        "maincourse": "Blockchain and Web3 Development",
+        "subcourse": "Short Videos",
+        "level": "Intermediate",
+        "duration": "10 minutes",
+        "language": ["English", "Hindi"]
+      },
+      {
+        "title": "Learn Blockchain in 30 Minutes",
+        "videoid": "z7xX0EExg3U",
+        "thumbnail": "https://img.youtube.com/vi/z7xX0EExg3U/maxresdefault.jpg",
+        "maincourse": "Blockchain and Web3 Development",
+        "subcourse": "Medium Videos",
+        "level": "Intermediate",
+        "duration": "30 minutes",
+        "language": ["English"]
+      },
+      {
+        "title": "Web3.0: The Future of Internet",
+        "videoid": "o1mYJcGRJ28",
+        "thumbnail": "https://img.youtube.com/vi/o1mYJcGRJ28/maxresdefault.jpg",
+        "maincourse": "Blockchain and Web3 Development",
+        "subcourse": "Medium Videos",
+        "level": "Intermediate",
+        "duration": "45 minutes",
+        "language": ["English", "Hindi"]
+      },
+      {
+        "title": "Full Blockchain Development Course",
+        "videoid": "bxQZTQTnOxQ",
+        "thumbnail": "https://img.youtube.com/vi/bxQZTQTnOxQ/maxresdefault.jpg",
+        "maincourse": "Blockchain and Web3 Development",
+        "subcourse": "Long Videos",
+        "level": "Advanced",
+        "duration": "4 hours 30 minutes",
+        "language": ["English", "Hindi"]
+      },
+      {
+        "title": "Mastering Web3 Development with Solidity",
+        "videoid": "gyMwXuJrbJQ",
+        "thumbnail": "https://img.youtube.com/vi/gyMwXuJrbJQ/maxresdefault.jpg",
+        "maincourse": "Blockchain and Web3 Development",
+        "subcourse": "Long Videos",
+        "level": "Advanced",
+        "duration": "6 hours",
+        "language": ["English"]
+      }
+    ]
+    {
+      "Blockchain_and_Web3_Development": {
+      "Short_Videos": [
+      {
+      "title": "Blockchain Explained in 5 Minutes",
+      "videoid": "kB5e-gTAl_s",
+      "thumbnail": "https://img.youtube.com/vi/kB5e-gTAl_s/0.jpg",
+      "maincourse": "Blockchain & Web3 Development",
+      "subcourse": "Blockchain Basics",
+      "level": "Beginner",
+      "duration": "5 minutes",
+      "language": ["English", "Hindi"]
+      },
+      {
+      "title": "What is Web3?",
+      "videoid": "gp6NfV3WgLQ",
+      "thumbnail": "https://img.youtube.com/vi/gp6NfV3WgLQ/0.jpg",
+      "maincourse": "Blockchain & Web3 Development",
+      "subcourse": "Web3 Concepts",
+      "level": "Beginner",
+      "duration": "7 minutes",
+      "language": ["English"]
+      },
+      {
+      "title": "Smart Contracts in 10 Minutes",
+      "videoid": "0ZYaykVxWqc",
+      "thumbnail": "https://img.youtube.com/vi/0ZYaykVxWqc/0.jpg",
+      "maincourse": "Blockchain & Web3 Development",
+      "subcourse": "Smart Contracts",
+      "level": "Intermediate",
+      "duration": "10 minutes",
+      "language": ["English", "Hindi"]
+      }
+      ],
+      "Medium_Videos": [
+      {
+      "title": "Learn Blockchain in 30 Minutes",
+      "videoid": "z7xX0EExg3U",
+      "thumbnail": "https://img.youtube.com/vi/z7xX0EExg3U/0.jpg",
+      "maincourse": "Blockchain & Web3 Development",
+      "subcourse": "Blockchain Overview",
+      "level": "Intermediate",
+      "duration": "30 minutes",
+      "language": ["English"]
+      },
+      {
+      "title": "Web3.0: The Future of Internet",
+      "videoid": "o1mYJcGRJ28",
+      "thumbnail": "https://img.youtube.com/vi/o1mYJcGRJ28/0.jpg",
+      "maincourse": "Blockchain & Web3 Development",
+      "subcourse": "Web3 Concepts",
+      "level": "Intermediate",
+      "duration": "45 minutes",
+      "language": ["English", "Hindi"]
+      }
+      ],
+      "Long_Videos": [
+      {
+      "title": "Full Blockchain Development Course",
+      "videoid": "bxQZTQTnOxQ",
+      "thumbnail": "https://img.youtube.com/vi/bxQZTQTnOxQ/0.jpg",
+      "maincourse": "Blockchain & Web3 Development",
+      "subcourse": "Blockchain Development",
+      "level": "Advanced",
+      "duration": "4 hours 30 minutes",
+      "language": ["English", "Hindi"]
+      },
+      {
+      "title": "Mastering Web3 Development with Solidity",
+      "videoid": "gyMwXuJrbJQ",
+      "thumbnail": "https://img.youtube.com/vi/gyMwXuJrbJQ/0.jpg",
+      "maincourse": "Blockchain & Web3 Development",
+      "subcourse": "Web3 Development",
+      "level": "Advanced",
+      "duration": "6 hours",
+      "language": ["English"]
+      }
+      ]
+      }
+      }
+      
+      [
+          {
+            "title": "Android App Development for Beginners",
+            "videoId": "dFlPARW5IX8",
+            "thumbnail": "https://i.ytimg.com/vi/dFlPARW5IX8/maxresdefault.jpg",
+            "mainCourse": "Tech & Programming",
+            "subCourse": "Android and iOS App Development",
+            "level": "Beginner",
+            "duration": "6 hours",
+            "language": "English"
+          },
+          {
+            "title": "एंड्रॉइड ऐप डेवलपमेंट शुरुआती के लिए",
+            "videoId": "dFlPARW5IX8",
+            "thumbnail": "https://i.ytimg.com/vi/dFlPARW5IX8/maxresdefault.jpg",
+            "mainCourse": "Tech & Programming",
+            "subCourse": "Android and iOS App Development",
+            "level": "Beginner",
+            "duration": "6 hours",
+            "language": "Hindi"
+          },
+          {
+            "title": "Kotlin Android Development Tutorial",
+            "videoId": "F9UC9DY-vIU",
+            "thumbnail": "https://i.ytimg.com/vi/F9UC9DY-vIU/maxresdefault.jpg",
+            "mainCourse": "Tech & Programming",
+            "subCourse": "Android and iOS App Development",
+            "level": "Intermediate",
+            "duration": "4 hours 30 minutes",
+            "language": "English"
+          },
+          {
+            "title": "कोटलिन एंड्रॉइड डेवलपमेंट ट्यूटोरियल",
+            "videoId": "F9UC9DY-vIU",
+            "thumbnail": "https://i.ytimg.com/vi/F9UC9DY-vIU/maxresdefault.jpg",
+            "mainCourse": "Tech & Programming",
+            "subCourse": "Android and iOS App Development",
+            "level": "Intermediate",
+            "duration": "4 hours 30 minutes",
+            "language": "Hindi"
+          },
+          {
+            "title": "iOS App Development with Swift",
+            "videoId": "hKj-O4zLl1Q",
+            "thumbnail": "https://i.ytimg.com/vi/hKj-O4zLl1Q/maxresdefault.jpg",
+            "mainCourse": "Tech & Programming",
+            "subCourse": "Android and iOS App Development",
+            "level": "Beginner",
+            "duration": "7 hours",
+            "language": "English"
+          },
+          {
+            "title": "स्विफ्ट के साथ iOS ऐप डेवलपमेंट",
+            "videoId": "hKj-O4zLl1Q",
+            "thumbnail": "https://i.ytimg.com/vi/hKj-O4zLl1Q/maxresdefault.jpg",
+            "mainCourse": "Tech & Programming",
+            "subCourse": "Android and iOS App Development",
+            "level": "Beginner",
+            "duration": "7 hours",
+            "language": "Hindi"
+          }
+        ]
+        [
+          {
+          "videoId": "DRAcPbYPNVk",
+          "title": "How to START Day Trading For Beginners 2024 (FULL COURSE)",
+          "thumbnail": "https://i.ytimg.com/vi/DRAcPbYPNVk/hqdefault.jpg",
+          "mainCourse": "Business & Finance",
+          "subCourse": "Stock Market and Crypto Trading",
+          "level": "beginner",
+          "duration": "medium",
+          "language": "English"
+          },
+          {
+          "videoId": "2ByOXdddmDM",
+          "title": "FULL Cryptocurrency Trading Course - From Beginner To EXPERT",
+          "thumbnail": "https://i.ytimg.com/vi/2ByOXdddmDM/hqdefault.jpg",
+          "mainCourse": "Business & Finance",
+          "subCourse": "Stock Market and Crypto Trading",
+          "level": "advanced",
+          "duration": "long",
+          "language": "English"
+          },
+          {
+          "videoId": "UbhHEK_5Ssg",
+          "title": "Use Grok AI to Earn Money from Trading | Crypto & Share Market Tips",
+          "thumbnail": "https://i.ytimg.com/vi/UbhHEK_5Ssg/hqdefault.jpg",
+          "mainCourse": "Business & Finance",
+          "subCourse": "Stock Market and Crypto Trading",
+          "level": "beginner",
+          "duration": "short",
+          "language": "Hindi"
+          },
+          {
+          "videoId": "N_WUac9IlqU",
+          "title": "Crypto Trading Full Course For Beginners in Hindi 2024 | Boom Trade | Aryan Pal",
+          "thumbnail": "https://i.ytimg.com/vi/N_WUac9IlqU/hqdefault.jpg",
+          "mainCourse": "Business & Finance",
+          "subCourse": "Stock Market and Crypto Trading",
+          "level": "beginner",
+          "duration": "medium",
+          "language": "Hindi"
+          },
+          {
+          "videoId": "YyvJvOtNdOo",
+          "title": "CRYPTO TRADING सीखो और कमाओ || share market free course class 1 video in hindi by Mahendra Dogney",
+          "thumbnail": "https://i.ytimg.com/vi/YyvJvOtNdOo/hqdefault.jpg",
+          "mainCourse": "Business & Finance",
+          "subCourse": "Stock Market and Crypto Trading",
+          "level": "beginner",
+          "duration": "medium",
+          "language": "Hindi"
+          }
+          ]
+          
+          [
+              {
+                "title": "How to START Day Trading For Beginners 2024 (FULL COURSE)",
+                "videoId": "DRAcPbYPNVk",
+                "thumbnail": "https://i.ytimg.com/vi/DRAcPbYPNVk/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "beginner",
+                "duration": "medium",
+                "language": "English"
+              },
+              {
+                "title": "FULL Cryptocurrency Trading Course - From Beginner To EXPERT",
+                "videoId": "2ByOXdddmDM",
+                "thumbnail": "https://i.ytimg.com/vi/2ByOXdddmDM/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "advanced",
+                "duration": "long",
+                "language": "English"
+              },
+              {
+                "title": "Use Grok AI to Earn Money from Trading | Crypto & Share Market Tips",
+                "videoId": "UbhHEK_5Ssg",
+                "thumbnail": "https://i.ytimg.com/vi/UbhHEK_5Ssg/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "beginner",
+                "duration": "short",
+                "language": "Hindi"
+              },
+              {
+                "title": "Crypto Trading Full Course For Beginners in Hindi 2024 | Boom Trade | Aryan Pal",
+                "videoId": "N_WUac9IlqU",
+                "thumbnail": "https://i.ytimg.com/vi/N_WUac9IlqU/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "beginner",
+                "duration": "medium",
+                "language": "Hindi"
+              },
+              {
+                "title": "CRYPTO TRADING सीखो और कमाओ || share market free course class 1 video in hindi by Mahendra Dogney",
+                "videoId": "YyvJvOtNdOo",
+                "thumbnail": "https://i.ytimg.com/vi/YyvJvOtNdOo/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "beginner",
+                "duration": "medium",
+                "language": "Hindi"
+              }
+            ]
+            [
+              {
+                "title": "How to START Day Trading For Beginners 2024 (FULL COURSE)",
+                "videoId": "DRAcPbYPNVk",
+                "thumbnail": "https://i.ytimg.com/vi/DRAcPbYPNVk/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "beginner",
+                "duration": "medium",
+                "language": ["English"]
+              },
+              {
+                "title": "FULL Cryptocurrency Trading Course - From Beginner To EXPERT",
+                "videoId": "2ByOXdddmDM",
+                "thumbnail": "https://i.ytimg.com/vi/2ByOXdddmDM/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "advanced",
+                "duration": "long",
+                "language": ["English"]
+              },
+              {
+                "title": "Use Grok AI to Earn Money from Trading | Crypto & Share Market Tips",
+                "videoId": "UbhHEK_5Ssg",
+                "thumbnail": "https://i.ytimg.com/vi/UbhHEK_5Ssg/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "beginner",
+                "duration": "short",
+                "language": ["Hindi"]
+              },
+              {
+                "title": "Crypto Trading Full Course For Beginners in Hindi 2024 | Boom Trade | Aryan Pal",
+                "videoId": "N_WUac9IlqU",
+                "thumbnail": "https://i.ytimg.com/vi/N_WUac9IlqU/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "beginner",
+                "duration": "medium",
+                "language": ["Hindi"]
+              },
+              {
+                "title": "CRYPTO TRADING सीखो और कमाओ || share market free course class 1 video in hindi by Mahendra Dogney",
+                "videoId": "YyvJvOtNdOo",
+                "thumbnail": "https://i.ytimg.com/vi/YyvJvOtNdOo/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "beginner",
+                "duration": "medium",
+                "language": ["Hindi"]
+              }
+            ]
+            [
+              {
+                "videoId": "zSMDeXlJCvk",
+                "title": "The ONLY Crypto Trading Course You'll Ever Need",
+                "thumbnail": "https://i.ytimg.com/vi/zSMDeXlJCvk/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Cryptocurrency Trading",
+                "level": "intermediate",
+                "duration": "long",
+                "language": "English"
+              },
+              {
+                "videoId": "dlGRE2YMD60",
+                "title": "ULTIMATE Cryptocurrency Beginners Guide (FREE FULL COURSE)",
+                "thumbnail": "https://i.ytimg.com/vi/dlGRE2YMD60/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Cryptocurrency Trading",
+                "level": "beginner",
+                "duration": "long",
+                "language": "English"
+              },
+              {
+                "videoId": "onsQJRT5gD4",
+                "title": "Stock Market & Bitcoin Analysis March 22 2025",
+                "thumbnail": "https://i.ytimg.com/vi/onsQJRT5gD4/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Bitcoin Analysis",
+                "level": "advanced",
+                "duration": "short",
+                "language": "English"
+              },
+              {
+                "videoId": "YyvJvOtNdOo",
+                "title": "CRYPTO TRADING सीखो और कमाओ || शेयर मार्केट फ्री कोर्स क्लास 1 वीडियो इन हिंदी",
+                "thumbnail": "https://i.ytimg.com/vi/YyvJvOtNdOo/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Cryptocurrency Trading",
+                "level": "beginner",
+                "duration": "medium",
+                "language": "Hindi"
+              },
+              {
+                "videoId": "N_WUac9IlqU",
+                "title": "क्रिप्टो ट्रेडिंग फुल कोर्स फॉर बिगिनर्स इन हिंदी 2024 | बूम ट्रेड | आर्यन पाल",
+                "thumbnail": "https://i.ytimg.com/vi/N_WUac9IlqU/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Cryptocurrency Trading",
+                "level": "beginner",
+                "duration": "medium",
+                "language": "Hindi"
+              }
+            ]
+            [
+              {
+                "videoId": "DRAcPbYPNVk",
+                "title": "How to START Day Trading For Beginners 2024 (FULL COURSE)",
+                "thumbnail": "https://i.ytimg.com/vi/DRAcPbYPNVk/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "beginner",
+                "duration": "medium",
+                "language": ["English"]
+              },
+              {
+                "videoId": "2ByOXdddmDM",
+                "title": "FULL Cryptocurrency Trading Course - From Beginner To EXPERT",
+                "thumbnail": "https://i.ytimg.com/vi/2ByOXdddmDM/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "advanced",
+                "duration": "long",
+                "language": ["English"]
+              },
+              {
+                "videoId": "UbhHEK_5Ssg",
+                "title": "Use Grok AI to Earn Money from Trading | Crypto & Share Market Tips",
+                "thumbnail": "https://i.ytimg.com/vi/UbhHEK_5Ssg/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "beginner",
+                "duration": "short",
+                "language": ["Hindi"]
+              },
+              {
+                "videoId": "N_WUac9IlqU",
+                "title": "Crypto Trading Full Course For Beginners in Hindi 2024 | Boom Trade | Aryan Pal",
+                "thumbnail": "https://i.ytimg.com/vi/N_WUac9IlqU/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "beginner",
+                "duration": "medium",
+                "language": ["Hindi"]
+              },
+              {
+                "videoId": "YyvJvOtNdOo",
+                "title": "CRYPTO TRADING सीखो और कमाओ || share market free course class 1 video in hindi by Mahendra Dogney",
+                "thumbnail": "https://i.ytimg.com/vi/YyvJvOtNdOo/hqdefault.jpg",
+                "mainCourse": "Business & Finance",
+                "subCourse": "Stock Market and Crypto Trading",
+                "level": "beginner",
+                "duration": "medium",
+                "language": ["Hindi"]
+              }
+            ]
+            [
+              {
+                "title": "How to Start a Startup - Sam Altman",
+                "videoid": "A8BtCfs1oH4",
+                "thumbnail": "https://img.youtube.com/vi/A8BtCfs1oH4/maxresdefault.jpg",
+                "maincourse": "Business & Finance",
+                "subcourse": "Entrepreneurship & Startups",
+                "level": "Beginner",
+                "duration": "Short",
+                "language": "English"
+              },
+              {
+                "title": "The Lean Startup | Eric Ries",
+                "videoid": "fEvKo90qBns",
+                "thumbnail": "https://img.youtube.com/vi/fEvKo90qBns/maxresdefault.jpg",
+                "maincourse": "Business & Finance",
+                "subcourse": "Entrepreneurship & Startups",
+                "level": "Intermediate",
+                "duration": "Medium",
+                "language": "English"
+              },
+              {
+                "title": "Building a Business 101 | Harvard Business School",
+                "videoid": "FQ4hvLqNfqo",
+                "thumbnail": "https://img.youtube.com/vi/FQ4hvLqNfqo/maxresdefault.jpg",
+                "maincourse": "Business & Finance",
+                "subcourse": "Entrepreneurship & Startups",
+                "level": "Advanced",
+                "duration": "Long",
+                "language": "English"
+              },
+              {
+                "title": "Startup Success Mantras in Hindi",
+                "videoid": "xWxwUKpWwlU",
+                "thumbnail": "https://img.youtube.com/vi/xWxwUKpWwlU/maxresdefault.jpg",
+                "maincourse": "Business & Finance",
+                "subcourse": "Entrepreneurship & Startups",
+                "level": "Beginner",
+                "duration": "Short",
+                "language": "Hindi"
+              },
+              {
+                "title": "Zero to One - Peter Thiel (Hindi Summary)",
+                "videoid": "EJ9-BI-2Z48",
+                "thumbnail": "https://img.youtube.com/vi/EJ9-BI-2Z48/maxresdefault.jpg",
+                "maincourse": "Business & Finance",
+                "subcourse": "Entrepreneurship & Startups",
+                "level": "Intermediate",
+                "duration": "Medium",
+                "language": "Hindi"
+              },
+              {
+                "title": "How to Build a Unicorn Startup (Hindi)",
+                "videoid": "OMvBqh-7d_0",
+                "thumbnail": "https://img.youtube.com/vi/OMvBqh-7d_0/maxresdefault.jpg",
+                "maincourse": "Business & Finance",
+                "subcourse": "Entrepreneurship & Startups",
+                "level": "Advanced",
+                "duration": "Long",
+                "language": "Hindi"
+              }
+            ]
+            [
+              {
+                "title": "3 Steps To Quickly Improve Your Communication Skills",
+                "videoid": "759ltCNvZNM",
+                "thumbnail": "https://i.ytimg.com/vi/759ltCNvZNM/hqdefault.jpg",
+                "maincourse": "Personal Development & Productivity",
+                "subcourse": "Public Speaking and Communication Skills",
+                "level": "Beginner",
+                "duration": "Short",
+                "language": "English"
+              },
+              {
+                "title": "3 Daily Public Speaking Exercises",
+                "videoid": "UQt-8tCvMPQ",
+                "thumbnail": "https://i.ytimg.com/vi/UQt-8tCvMPQ/hqdefault.jpg",
+                "maincourse": "Personal Development & Productivity",
+                "subcourse": "Public Speaking and Communication Skills",
+                "level": "Intermediate",
+                "duration": "Short",
+                "language": "English"
+              },
+              {
+                "title": "Think Fast, Talk Smart: Communication Techniques",
+                "videoid": "HAnw168huqA",
+                "thumbnail": "https://i.ytimg.com/vi/HAnw168huqA/hqdefault.jpg",
+                "maincourse": "Personal Development & Productivity",
+                "subcourse": "Public Speaking and Communication Skills",
+                "level": "Advanced",
+                "duration": "Medium",
+                "language": "English"
+              },
+              {
+                "title": "5 Easy Steps To Speak In ENGLISH Fluently And Confidently",
+                "videoid": "27Ethdd1yu4",
+                "thumbnail": "https://i.ytimg.com/vi/27Ethdd1yu4/hqdefault.jpg",
+                "maincourse": "Personal Development & Productivity",
+                "subcourse": "Public Speaking and Communication Skills",
+                "level": "Intermediate",
+                "duration": "Long",
+                "language": "English"
+              },
+              {
+                "title": "Communication Skills Kaise Badhaye?",
+                "videoid": "jpxpYAx3q-A",
+                "thumbnail": "https://i.ytimg.com/vi/jpxpYAx3q-A/hqdefault.jpg",
+                "maincourse": "Personal Development & Productivity",
+                "subcourse": "Public Speaking and Communication Skills",
+                "level": "Beginner",
+                "duration": "Short",
+                "language": "Hindi"
+              },
+              {
+                "title": "Improve Your Communication Skills 💯 Best Tips",
+                "videoid": "IoPcXf5faZQ",
+                "thumbnail": "https://i.ytimg.com/vi/IoPcXf5faZQ/hqdefault.jpg",
+                "maincourse": "Personal Development & Productivity",
+                "subcourse": "Public Speaking and Communication Skills",
+                "level": "Beginner",
+                "duration": "Short",
+                "language": "Hindi"
+              },
+              {
+                "title": "10 Tips to Boost your Communication Skills | by Him eesh Madaan",
+                "videoid": "vULoIGxBYA4",
+                "thumbnail": "https://i.ytimg.com/vi/vULoIGxBYA4/hqdefault.jpg",
+                "maincourse": "Personal Development & Productivity",
+                "subcourse": "Public Speaking and Communication Skills",
+                "level": "Advanced",
+                "duration": "Medium",
+                "language": "Hindi"
+              },
+              {
+                "title": "How to become a good Public Speaker in 7 months?",
+                "videoid": "4VdVzHBfPG0",
+                "thumbnail": "https://i.ytimg.com/vi/4VdVzHBfPG0/hqdefault.jpg",
+                "maincourse": "Personal Development & Productivity",
+                "subcourse": "Public Speaking and Communication Skills",
+                "level": "Intermediate",
+                "duration": "Medium",
+                "language": "Hindi"
+              },
+              {
+                "title": "How to Develop Communication Skills",
+                "videoid": "vlnhd3KjbzQ",
+                "thumbnail": "https://i.ytimg.com/vi/vlnhd3KjbzQ/hqdefault.jpg",
+                "maincourse": "Personal Development & Productivity",
+                "subcourse": "Public Speaking and Communication Skills",
+                "level": "Intermediate",
+                "duration": "Long",
+                "language": "Hindi"
+              }
+            ]
+            [
+              {
+                "title": "10 Time Management Tips to Boost Your Productivity",
+                "videoId": "xgp6eELYY1M",
+                "thumbnail": "https://i.ytimg.com/vi/xgp6eELYY1M/hqdefault.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Time Management and Productivity Hacks",
+                "level": "Beginner",
+                "duration": "Short",
+                "language": "English"
+              },
+              {
+                "title": "Most Effective Way To Manage Your Time (Framework)",
+                "videoId": "Si8b7Wixdvk",
+                "thumbnail": "https://i.ytimg.com/vi/Si8b7Wixdvk/hqdefault.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Time Management and Productivity Hacks",
+                "level": "Intermediate",
+                "duration": "Medium",
+                "language": "English"
+              },
+              {
+                "title": "How I Manage My Time - 10 Time Management Tips",
+                "videoId": "iONDebHX9qk",
+                "thumbnail": "https://i.ytimg.com/vi/iONDebHX9qk/hqdefault.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Time Management and Productivity Hacks",
+                "level": "Advanced",
+                "duration": "Long",
+                "language": "English"
+              },
+              {
+                "title": "PRODUCTIVITY HACKS in 30 SECONDS! | Ankur Warikoo #shorts",
+                "videoId": "ickpySbnMaE",
+                "thumbnail": "https://i.ytimg.com/vi/ickpySbnMaE/hqdefault.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Time Management and Productivity Hacks",
+                "level": "Beginner",
+                "duration": "Short",
+                "language": "Hindi"
+              },
+              {
+                "title": "Best Time Management Hack",
+                "videoId": "Of9P5Xdndbw",
+                "thumbnail": "https://i.ytimg.com/vi/Of9P5Xdndbw/hqdefault.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Time Management and Productivity Hacks",
+                "level": "Intermediate",
+                "duration": "Short",
+                "language": "Hindi"
+              },
+              {
+                "title": "3 दिन का काम 1 दिन में कैसे करें?। Top 8 Time Management Tips | Deepak Bajaj",
+                "videoId": "XVlb-_hC8CE",
+                "thumbnail": "https://i.ytimg.com/vi/XVlb-_hC8CE/hqdefault.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Time Management and Productivity Hacks",
+                "level": "Intermediate",
+                "duration": "Medium",
+                "language": "Hindi"
+              },
+              {
+                "title": "10 Time Management Frameworks for Productivity | Warikoo Hindi",
+                "videoId": "7ax4Tb5G1P4",
+                "thumbnail": "https://i.ytimg.com/vi/7ax4Tb5G1P4/hqdefault.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Time Management and Productivity Hacks",
+                "level": "Advanced",
+                "duration": "Long",
+                "language": "Hindi"
+              }
+            ] 
+            [
+              {
+                "title": "HOW I Started Freelancing At Age 18! 📈 | Ishan Sharma #shorts",
+                "videoId": "76YTtLdfaOs",
+                "thumbnail": "https://i.ytimg.com/vi/76YTtLdfaOs/default.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Freelancing and Side Hustles",
+                "level": "Beginner",
+                "duration": "short",
+                "language": "English"
+              },
+              {
+                "title": "5 Side Hustles for Students to Make Money Online💸| Read Description 👇🏻",
+                "videoId": "BKu9fac52sQ",
+                "thumbnail": "https://i.ytimg.com/vi/BKu9fac52sQ/default.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Freelancing and Side Hustles",
+                "level": "Beginner",
+                "duration": "short",
+                "language": "English"
+              },
+              {
+                "title": "5 Websites for Freelancing",
+                "videoId": "tL1UASLn-Js",
+                "thumbnail": "https://i.ytimg.com/vi/tL1UASLn-Js/default.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Freelancing and Side Hustles",
+                "level": "Intermediate",
+                "duration": "medium",
+                "language": "English"
+              },
+              {
+                "title": "Should You Use FREELANCING WEBSITES in 2025? 🤯",
+                "videoId": "77esl9RHcQ8",
+                "thumbnail": "https://i.ytimg.com/vi/77esl9RHcQ8/default.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Freelancing and Side Hustles",
+                "level": "Intermediate",
+                "duration": "medium",
+                "language": "English"
+              },
+              {
+                "title": "Make Your FIRST ₹10,000 Freelancing in 30 DAYS as Student 🔥| Ishan Sharma",
+                "videoId": "FjEJ0yahkGw",
+                "thumbnail": "https://i.ytimg.com/vi/FjEJ0yahkGw/default.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Freelancing and Side Hustles",
+                "level": "Intermediate",
+                "duration": "long",
+                "language": "English"
+              },
+              {
+                "title": "Freelancing ka Sach #LLAShorts 640",
+                "videoId": "eys9TdU0bwU",
+                "thumbnail": "https://i.ytimg.com/vi/eys9TdU0bwU/default.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Freelancing and Side Hustles",
+                "level": "Beginner",
+                "duration": "short",
+                "language": "Hindi"
+              },
+              {
+                "title": "Freelancing की शुरुआत कैसे करे? | #shorts #freelancing",
+                "videoId": "rt90ir0pfC8",
+                "thumbnail": "https://i.ytimg.com/vi/rt90ir0pfC8/default.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Freelancing and Side Hustles",
+                "level": "Beginner",
+                "duration": "short",
+                "language": "Hindi"
+              },
+              {
+                "title": "How To Start Freelancing For Beginners | Mastering Freelancing: Your Step-by-Step Roadmap",
+                "videoId": "S-kQqCPUc3Y",
+                "thumbnail": "https://i.ytimg.com/vi/S-kQqCPUc3Y/default.jpg",
+                "mainCourse": "Personal Development & Productivity",
+                "subCourse": "Freelancing and Side Hustles",
+                "level": "Advanced",
+                "duration": "long",
+                "language": "Hindi"
+              }
+            ]
+                          
+{
+  "title": "IELTS Speaking Interview | Band 9 | Academic English Help",
+  "videoId": "VAZB0_zBnjs",
+  "thumbnail": "https://i.ytimg.com/vi/VAZB0_zBnjs/hqdefault.jpg",
+  "mainCourse": "English Speaking and IELTS Preparation",
+  "subCourse": "IELTS Speaking",
+  "level": "Beginner",
+  "duration": "Short",
+  "language": "English"
+},
+{
+  "title": "IELTS Listening Section Practice for High Scores",
+  "videoId": "zr8a7fhWyQg",
+  "thumbnail": "https://i.ytimg.com/vi/zr8a7fhWyQg/hqdefault.jpg",
+  "mainCourse": "English Speaking and IELTS Preparation",
+  "subCourse": "IELTS Listening",
+  "level": "Beginner",
+  "duration": "Short",
+  "language": "English"
+},
+{
+  "title": "IELTS Speaking Score 9 Special Strategy",
+  "videoId": "lj_sEsay9ro",
+  "thumbnail": "https://i.ytimg.com/vi/lj_sEsay9ro/hqdefault.jpg",
+  "mainCourse": "English Speaking and IELTS Preparation",
+  "subCourse": "IELTS Speaking",
+  "level": "Beginner",
+  "duration": "Medium",
+  "language": "English"
+},
+{
+  "title": "IELTS Speaking Score 9 Special Strategy | Academic English Help",
+  "videoId": "kGF5lefHq3E",
+  "thumbnail": "https://i.ytimg.com/vi/kGF5lefHq3E/hqdefault.jpg",
+  "mainCourse": "English Speaking and IELTS Preparation",
+  "subCourse": "IELTS Speaking",
+  "level": "Beginner",
+  "duration": "Long",
+  "language": "English"
+},
+{
+  "title": "IELTS Speaking Tips and Tricks | IELTS Preparation Full Course | Leap Scholar",
+  "videoId": "Ml1Z1zzsLXY",
+  "thumbnail": "https://i.ytimg.com/vi/Ml1Z1zzsLXY/hqdefault.jpg",
+  "mainCourse": "English Speaking and IELTS Preparation",
+  "subCourse": "IELTS Speaking",
+  "level": "Beginner",
+  "duration": "Short",
+  "language": "Hindi"
+},
+{
+  "title": "What is IELTS Exam With Full Information? – [Hindi] – Quick Support",
+  "videoId": "XQEHvubTEaM",
+  "thumbnail": "https://i.ytimg.com/vi/XQEHvubTEaM/hqdefault.jpg",
+  "mainCourse": "English Speaking and IELTS Preparation",
+  "subCourse": "IELTS Overview",
+  "level": "Beginner",
+  "duration": "Medium",
+  "language": "Hindi"
+},
+{
+  "title": "IELTS 2024 Complete Course in 1 HOUR! (You won't need another video!)",
+  "videoId": "HDhlXPBXwFA",
+  "thumbnail": "https://i.ytimg.com/vi/HDhlXPBXwFA/hqdefault.jpg",
+  "mainCourse": "English Speaking and IELTS Preparation",
+  "subCourse": "IELTS Full Course",
+  "level": "Beginner",
+  "duration": "Long",
+  "language": "Hindi"
+}
+]
+[
+  {
+    "title": "A Day at Work! iOS Developer #workfromhome #shorts #swift #swiftui",
+    "videoId": "dbs5Q8M5LCk",
+    "thumbnail": "https://i.ytimg.com/vi/dbs5Q8M5LCk/hqdefault.jpg",
+    "mainCourse": "Highly Demanded Courses",
+    "subCourse": "Swift (iOS Development)",
+    "level": "Beginner",
+    "duration": "short",
+    "language": "English"
+  },
+  {
+    "title": "Swift Programming Tutorial | FULL COURSE | Absolute Beginner",
+    "videoId": "CwA1VWP0Ldw",
+    "thumbnail": "https://i.ytimg.com/vi/CwA1VWP0Ldw/hqdefault.jpg",
+    "mainCourse": "Highly Demanded Courses",
+    "subCourse": "Swift (iOS Development)",
+    "level": "Beginner",
+    "duration": "short",
+    "language": "English"
+  },
+  {
+    "title": "How I learned iOS Development in 30 Days? 0 to Pro!",
+    "videoId": "CuB3dg8F3sY",
+    "thumbnail": "https://i.ytimg.com/vi/CuB3dg8F3sY/hqdefault.jpg",
+    "mainCourse": "Highly Demanded Courses",
+    "subCourse": "Swift (iOS Development)",
+    "level": "Intermediate",
+    "duration": "medium",
+    "language": "English"
+  },
+  {
+    "title": "Top 5 website for iOS development course | Free iOS app development course | Swift course - Hindi",
+    "videoId": "8x_JOWFy_bI",
+    "thumbnail": "https://i.ytimg.com/vi/8x_JOWFy_bI/hqdefault.jpg",
+    "mainCourse": "Highly Demanded Courses",
+    "subCourse": "Swift (iOS Development)",
+    "level": "Beginner",
+    "duration": "short",
+    "language": "Hindi"
+  },
+  {
+    "title": "A Day at Work! iOS Developer #workfromhome #shorts #swift #swiftui",
+    "videoId": "dbs5Q8M5LCk",
+    "thumbnail": "https://i.ytimg.com/vi/dbs5Q8M5LCk/hqdefault.jpg",
+    "mainCourse": "Highly Demanded Courses",
+    "subCourse": "Swift (iOS Development)",
+    "level": "Beginner",
+    "duration": "short",
+    "language": "Hindi"
+  }
+]
+[
+  {
+    "title": "Why should you learn Flutter in 2024",
+    "videoId": "HVvoIDiXQOk",
+    "thumbnail": "https://i.ytimg.com/vi/HVvoIDiXQOk/hqdefault.jpg",
+    "maincourse": "Tech & Programming",
+    "subcourse": "Flutter (Dart)",
+    "level": "Beginner",
+    "duration": "5 min",
+    "language": ["English", "Hindi"]
+  },
+  {
+    "title": "Level Up Your Flutter Skills 🤯",
+    "videoId": "phAh_iAhuWs",
+    "thumbnail": "https://i.ytimg.com/vi/phAh_iAhuWs/hqdefault.jpg",
+    "maincourse": "Tech & Programming",
+    "subcourse": "Flutter (Dart)",
+    "level": "Intermediate",
+    "duration": "15 min",
+    "language": ["English", "Hindi"]
+  },
+  {
+    "title": "Flutter in 100 seconds",
+    "videoId": "lHhRhPV--G0",
+    "thumbnail": "https://i.ytimg.com/vi/lHhRhPV--G0/hqdefault.jpg",
+    "maincourse": "Tech & Programming",
+    "subcourse": "Flutter (Dart)",
+    "level": "Beginner",
+    "duration": "2 min",
+    "language": ["English", "Hindi"]
+  },
+  {
+    "title": "Flutter Course for Beginners – 37-hour Cross Platform App Development Tutorial",
+    "videoId": "VPvVD8t02U8",
+    "thumbnail": "https://i.ytimg.com/vi/VPvVD8t02U8/hqdefault.jpg",
+    "maincourse": "Tech & Programming",
+    "subcourse": "Flutter (Dart)",
+    "level": "Beginner",
+    "duration": "37 hours",
+    "language": ["English", "Hindi"]
+  }
+]
+[
+  {
+    "title": "बिल्कुल Basic से English बोलना सीखे | English Speaking Class | English Lovers Live",
+    "videoId": "shBClOtgCbA",
+    "thumbnail": "https://i.ytimg.com/vi/shBClOtgCbA/hqdefault.jpg",
+    "maincourse": "Languages",
+    "subcourse": "English",
+    "level": "Beginner",
+    "duration": "Unknown",
+    "language": ["Hindi"]
+  },
+  {
+    "title": "😂 Buying a coffee in your second language 😂  #learnenglish #english",
+    "videoId": "0Jx8ymnOvxQ",
+    "thumbnail": "https://i.ytimg.com/vi/0Jx8ymnOvxQ/hqdefault.jpg",
+    "maincourse": "Languages",
+    "subcourse": "English",
+    "level": "Beginner",
+    "duration": "Unknown",
+    "language": ["English"]
+  },
+  {
+    "title": "928. The Abduction 🛸 (Learn English with a Short Story)",
+    "videoId": "u5rIOmG3dqc",
+    "thumbnail": "https://i.ytimg.com/vi/u5rIOmG3dqc/hqdefault.jpg",
+    "maincourse": "Languages",
+    "subcourse": "English",
+    "level": "Intermediate",
+    "duration": "Unknown",
+    "language": ["English"]
+  },
+  {
+    "title": "Master Conjunctions in 30 Min : Your Key to Fluent English | English Speaking Practice",
+    "videoId": "5Ca6ncbtlHw",
+    "thumbnail": "https://i.ytimg.com/vi/5Ca6ncbtlHw/hqdefault.jpg",
+    "maincourse": "Languages",
+    "subcourse": "English",
+    "level": "Intermediate",
+    "duration": "30 min",
+    "language": ["English"]
+  },
+  {
+    "title": "14 Famous English Phrases From Movies and How to Use Them",
+    "videoId": "m16gpVbG9YQ",
+    "thumbnail": "https://i.ytimg.com/vi/m16gpVbG9YQ/hqdefault.jpg",
+    "maincourse": "Languages",
+    "subcourse": "English",
+    "level": "Intermediate",
+    "duration": "Unknown",
+    "language": ["English"]
+  }
+]
+[
+  {
+    "title": "HOW DO YOU SAY 102 EGGS IN SPANISH? #shorts",
+    "videoId": "t915yZwqYyY",
+    "thumbnail": "https://i.ytimg.com/vi/t915yZwqYyY/hqdefault.jpg",
+    "maincourse": "Languages",
+    "subcourse": "Spanish",
+    "level": "Beginner",
+    "duration": "Unknown",
+    "language": ["Spanish"]
+  },
+  {
+    "title": "Learn Spanish in 35 minutes: The 100+ everyday Spanish sentences you need to know!",
+    "videoId": "6_5FnCLLYoA",
+    "thumbnail": "https://i.ytimg.com/vi/6_5FnCLLYoA/hqdefault.jpg",
+    "maincourse": "Languages",
+    "subcourse": "Spanish",
+    "level": "Beginner",
+    "duration": "35 minutes",
+    "language": ["Spanish", "English"]
+  },
+  {
+    "title": "LEARN SPANISH with This VLOG 🇪🇸 (w/ subtitles!)",
+    "videoId": "3nb_hjv5Y24",
+    "thumbnail": "https://i.ytimg.com/vi/3nb_hjv5Y24/hqdefault.jpg",
+    "maincourse": "Languages",
+    "subcourse": "Spanish",
+    "level": "Intermediate",
+    "duration": "Unknown",
+    "language": ["Spanish", "English"]
+  },
+  {
+    "title": "IF YOU WANT TO LEARN SPANISH WATCH THIS FIRST!! Must know, basic conversational vocabulary. || SAH",
+    "videoId": "xglEjH0Ue8o",
+    "thumbnail": "https://i.ytimg.com/vi/xglEjH0Ue8o/hqdefault.jpg",
+    "maincourse": "Languages",
+    "subcourse": "Spanish",
+    "level": "Beginner",
+    "duration": "Unknown",
+    "language": ["Spanish", "English"]
+  }
+]
+[
+  {
+    "title": "Chinese is easy #mandarin #chineselanguage #modernchinese #learn",
+    "videoId": "fnmmMASIWcc",
+    "thumbnail": "https://i.ytimg.com/vi/fnmmMASIWcc/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Mandarin Chinese",
+    "level": "Beginner",
+    "duration": "Not Available",
+    "language": "English"
+  },
+  {
+    "title": "North vs. South Chinese Accent 🇨🇳",
+    "videoId": "sLNbJ3BYfxQ",
+    "thumbnail": "https://i.ytimg.com/vi/sLNbJ3BYfxQ/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Mandarin Chinese",
+    "level": "Intermediate",
+    "duration": "Not Available",
+    "language": "English"
+  },
+  {
+    "title": "HARD Mandarin Chinese Tongue Twister (Ping Pang Sounds)!",
+    "videoId": "Q5H3GxJpfr4",
+    "thumbnail": "https://i.ytimg.com/vi/Q5H3GxJpfr4/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Mandarin Chinese",
+    "level": "Advanced",
+    "duration": "Not Available",
+    "language": "English",
+    "note": "Future release on 2024-09-24"
+  },
+  {
+    "title": "I’ll never get it #mandarin #learningchinese #learningmandarin #asian #chinese",
+    "videoId": "Mbb9BFSH-PA",
+    "thumbnail": "https://i.ytimg.com/vi/Mbb9BFSH-PA/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Mandarin Chinese",
+    "level": "Beginner",
+    "duration": "Not Available",
+    "language": "English"
+  },
+  {
+    "title": "Chinese Pinyin Learning for beginner #chinese #mandarin #learnchinese#chino",
+    "videoId": "u4uBKO5kIyM",
+    "thumbnail": "https://i.ytimg.com/vi/u4uBKO5kIyM/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Mandarin Chinese",
+    "level": "Beginner",
+    "duration": "Not Available",
+    "language": "English"
+  }
+]
+[
+  {
+    "title": "О русском по-русски",
+    "videoId": null,
+    "thumbnail": "https://yt3.ggpht.com/KGm25dQIKzDYNoJf3trQLVhJzbK6sWIvtiS4UkKTHpTiYwLBIdj-g2qGduDTCQ3qjSBX7cXwaQ=s800-c-k-c0xffffffff-no-rj-mo",
+    "mainCourse": "Languages",
+    "subCourse": "Russian",
+    "level": "Beginner",
+    "duration": "N/A (Channel)",
+    "language": ["Hindi", "English"]
+  }
+]
+[
+  {
+    "videoId": "vTi_CkkTgoA",
+    "title": "Japanese Quiz 🤭🇯🇵 Basic Japanese Phrases",
+    "channel": "NihongoDekita with Sayaka",
+    "publishedAt": "2023-12-16",
+    "thumbnail": "https://i.ytimg.com/vi/vTi_CkkTgoA/hqdefault.jpg",
+    "level": "Beginner",
+    "mainCourse": "Languages",
+    "subCourse": "Japanese",
+    "language": "English"
+  },
+  {
+    "videoId": "gIe82dVu7-M",
+    "title": "Learn Japanese Easily",
+    "channel": "Mondly by Pearson",
+    "publishedAt": "2023-06-16",
+    "thumbnail": "https://i.ytimg.com/vi/gIe82dVu7-M/hqdefault.jpg",
+    "level": "Beginner",
+    "mainCourse": "Languages",
+    "subCourse": "Japanese",
+    "language": "English"
+  },
+  {
+    "videoId": "lwkjxXo9BSA",
+    "title": "5 MUST-KNOW Phrases When Traveling to Japan 🇯🇵",
+    "channel": "NihongoDekita with Sayaka",
+    "publishedAt": "2023-06-13",
+    "thumbnail": "https://i.ytimg.com/vi/lwkjxXo9BSA/hqdefault.jpg",
+    "level": "Beginner",
+    "mainCourse": "Languages",
+    "subCourse": "Japanese",
+    "language": "English"
+  },
+  {
+    "videoId": "OdPQOyarROM",
+    "title": "Learning Japanese from Duolingo #shorts",
+    "channel": "Ken & Friends",
+    "publishedAt": "2024-06-30",
+    "thumbnail": "https://i.ytimg.com/vi/OdPQOyarROM/hqdefault.jpg",
+    "level": "Beginner",
+    "mainCourse": "Languages",
+    "subCourse": "Japanese",
+    "language": "English"
+  },
+  {
+    "videoId": "sISIVKJh_EA",
+    "title": "How to Start Learning Japanese from NOTHING",
+    "channel": "tokuyuu",
+    "publishedAt": "2022-03-18",
+    "thumbnail": "https://i.ytimg.com/vi/sISIVKJh_EA/hqdefault.jpg",
+    "level": "Beginner",
+    "mainCourse": "Languages",
+    "subCourse": "Japanese",
+    "language": "English"
+  }
+]
+[
+  {
+    "title": "Korean is So Easy 😮 #korean",
+    "videoId": "cJP455my5TY",
+    "thumbnail": "https://i.ytimg.com/vi/cJP455my5TY/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Korean",
+    "level": "Beginner",
+    "duration": "2 min",
+    "language": ["Hindi", "English"]
+  },
+  {
+    "title": "Good morning in Korean language #koreanlanguage #learnkorean",
+    "videoId": "K8fS9tj8518",
+    "thumbnail": "https://i.ytimg.com/vi/K8fS9tj8518/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Korean",
+    "level": "Beginner",
+    "duration": "1 min",
+    "language": ["Hindi", "English"]
+  },
+  {
+    "title": "Learn the Korean Hanguel",
+    "videoId": "opw_tSJzJ7A",
+    "thumbnail": "https://i.ytimg.com/vi/opw_tSJzJ7A/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Korean",
+    "level": "Beginner",
+    "duration": "5 min",
+    "language": ["Hindi", "English"]
+  },
+  {
+    "title": "Korean Basics 🇰🇷",
+    "videoId": "rnrYjBah2_s",
+    "thumbnail": "https://i.ytimg.com/vi/rnrYjBah2_s/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Korean",
+    "level": "Beginner",
+    "duration": "4 min",
+    "language": ["Hindi", "English"]
+  },
+  {
+    "title": "Simple greetings in Korean for beginners!",
+    "videoId": "eRb4A1N_qgg",
+    "thumbnail": "https://i.ytimg.com/vi/eRb4A1N_qgg/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Korean",
+    "level": "Beginner",
+    "duration": "3 min",
+    "language": ["Hindi", "English"]
+  }
+]
+[
+  {
+    "title": "Why it’s easy to learn Russian",
+    "videoId": "yBKD32XDdoU",
+    "thumbnail": "https://i.ytimg.com/vi/yBKD32XDdoU/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Russian",
+    "level": "Beginner",
+    "duration": "Unknown",
+    "language": ["English"]
+  },
+  {
+    "title": "Russian Language ALPHABET letters learning",
+    "videoId": "GdqnrfFk2Mw",
+    "thumbnail": "https://i.ytimg.com/vi/GdqnrfFk2Mw/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Russian",
+    "level": "Beginner",
+    "duration": "Unknown",
+    "language": ["English"]
+  },
+  {
+    "title": "Russian Language - Lesson 1 | YOUR FIRST 25 PHRASES for absolute beginners",
+    "videoId": "QhhI0dyqbpE",
+    "thumbnail": "https://i.ytimg.com/vi/QhhI0dyqbpE/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Russian",
+    "level": "Beginner",
+    "duration": "Unknown",
+    "language": ["English"]
+  },
+  {
+    "title": "Learn complete Russian letters in Hindi | Russian language in Hindi",
+    "videoId": "zG7rDKFLGyo",
+    "thumbnail": "https://i.ytimg.com/vi/zG7rDKFLGyo/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Russian",
+    "level": "Beginner",
+    "duration": "Unknown",
+    "language": ["Hindi"]
+  },
+  {
+    "title": "Basic Russian phrases",
+    "videoId": "7FOL6yOQjck",
+    "thumbnail": "https://i.ytimg.com/vi/7FOL6yOQjck/hqdefault.jpg",
+    "mainCourse": "Languages",
+    "subCourse": "Russian",
+    "level": "Beginner",
+    "duration": "Unknown",
+    "language": ["English"]
+  }
+]
+
