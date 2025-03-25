@@ -1,1 +1,8 @@
-config/firebase-key.json
+# Ignore environment and sensitive files
+.env
+firebase-key.json
+
+# Ignore dependencies
+node_modules/
+openlearn-hub-backend/node_modules/
+node_modules/

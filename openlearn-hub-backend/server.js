@@ -1,8 +1,6 @@
-require("dotenv").config();
+require('dotenv').config();
 const fs = require("fs");
 const admin = require("firebase-admin");
-console.log("GEMINI_API_KEY:", process.env.GEMINI_API_KEY);
-
 const express = require("express");
 const cors = require("cors");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
@@ -15,57 +13,36 @@ app.use(cors());
 app.use(express.json());
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-async function testGeminiAPI() {
-  try {
-      const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
-      const result = await model.generateContent("Say hello");
-      console.log("Raw AI Response:", result);
-
-      const response = await result.response; // Correct way to get response
-      console.log("Parsed AI Response:", response.text());
-  } catch (error) {
-      console.error("Error testing Gemini API:", error);
-  }
-}
-
-// Run the test function
-testGeminiAPI();
-
 
 async function getAIResponse(userInput) {
     try {
-        const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
+        const model = genAI.getGenerativeModel({ model: "gemini-pro" });
         const result = await model.generateContent(userInput);
-        console.log("Raw AI Response:", result);
-        const response = result.response?.candidates?.[0]?.content?.parts?.map(part => part.text).join(" ") || "No response received.";
-        console.log("Parsed AI Response:", response);
+        const response = result.text();
         return response;
     } catch (error) {
-        console.error("Error with Gemini AI:", error);
+        console.error("Error with Gemini AI:", error.message);
         return "AI service is currently unavailable.";
     }
 }
 
 app.post("/recommend-courses", async (req, res) => {
     const userInput = req.body.userInput;
-    console.log("Received input:", userInput);
     if (!userInput) {
         return res.status(400).json({ error: "User input is required." });
     }
 
     try {
         const aiResponse = await getAIResponse(userInput);
-        console.log("AI response:", aiResponse);
         res.json({ recommendation: aiResponse });
     } catch (error) {
-      console.error("Error fetching AI response:", error);
         res.status(500).json({ error: "Something went wrong!" });
     }
 });
 
 // Load Firebase service account key//
-const serviceAccount = JSON.parse(fs.readFileSync("./firebase-key.json", "utf8"));
-/*const serviceAccount = JSON.parse(process.env.FIREBASE_CREDENTIALS);*/
+/*nst serviceAccount = JSON.parse(fs.readFileSync("./firebase-key.json", "utf8"));*/
+const serviceAccount = JSON.parse(process.env.FIREBASE_CREDENTIALS);
 
 
 admin.initializeApp({
