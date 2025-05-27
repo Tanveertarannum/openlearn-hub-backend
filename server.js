@@ -1,13 +1,74 @@
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
-console.log("JWT_SECRET:", process.env.JWT_SECRET);
 const express = require("express");
-const cors = require("cors");
 const admin = require("firebase-admin");
+const cors = require("cors");
 const fs = require("fs");
-const geminiApiKey=process.env.GEMINI_API_KEY;
-console.log("Gemini API Key:",geminiApiKey);
-// Initialize Express app
+const path = require("path");
+
+//Debugging: Ensure environment variables are loaded
+console.log("Checking Environment Variables...");
+if (!process.env.FIREBASE_KEY_PATH) {
+  console.error("ERROR: FIREBASE_KEY_PATH is not set in .env!");
+  process.exit(1);
+}
+if (!process.env.GEMINI_API_KEY) {
+  console.error("ERROR: GEMINI_API_KEY is missing!");
+  process.exit(1);
+}
+if (!process.env.JWT_SECRET) {
+  console.error("ERROR: JWT_SECRET is missing!");
+  process.exit(1);
+}
+console.log("Environment Variables Loaded Successfully!");
+
+// Validate Firebase JSON Path
+const firebaseKeyPath = process.env.FIREBASE_KEY_PATH;
+console.log("Using Firebase Key Path:", firebaseKeyPath);
+
+if (!fs.existsSync(firebaseKeyPath)) {
+  console.error("Firebase key file not found at", firebaseKeyPath);
+  process.exit(1);
+}
+
+try {
+  const rawData = fs.readFileSync(firebaseKeyPath, "utf8").trim();
+  console.log("Raw Data Read from Firebase JSON:", rawData);
+
+  if (!rawData) throw new Error("firebase-key.json is empty!");
+
+  const serviceAccount = JSON.parse(rawData);
+  if (!serviceAccount.private_key) throw new Error("Private key missing!");
+
+  serviceAccount.private_key = serviceAccount.private_key.replace(/\\n/g, "\n");
+
+  console.log("Firebase Config Loaded:", serviceAccount.project_id);
+
+  admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount),
+  });
+
+  console.log("Firebase Initialized Successfully!");
+} catch (error) {
+  console.error("Error parsing Firebase JSON:", error);
+  process.exit(1);
+}
+
+
+// Initialize Firebase (Only Once)
+if (!admin.apps.length) {
+  admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount),
+  });
+  console.log("Firebase Admin SDK Initialized Successfully!");
+} else {
+  console.log("Firebase Admin SDK Already Initialized!");
+}
+
+// Firebase Auth Reference
+const auth = admin.auth();
+
+// Initialize Express App
 const app = express();
 const PORT = process.env.PORT || 5000;
 
@@ -15,14 +76,16 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-// Load Firebase service account key
-const serviceAccount = JSON.parse(fs.readFileSync("./firebase-key.json", "utf8"));
-
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
+// Test Route
+app.get("/", (req, res) => {
+  res.send("✅ Server is running smoothly!");
 });
 
-const auth = admin.auth(); // Declare only once, outside the routes
+// Start Server
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+
 
 // Test server
 app.get("/", (req, res) => {
