@@ -1,5 +1,8 @@
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
+require('dotenv').config();
+const fs = require("fs");
+const admin = require("firebase-admin");
 const express = require("express");
 const admin = require("firebase-admin");
 const cors = require("cors");
@@ -65,27 +68,55 @@ if (!admin.apps.length) {
   console.log("Firebase Admin SDK Already Initialized!");
 }
 
-// Firebase Auth Reference
-const auth = admin.auth();
-
 // Initialize Express App
-const app = express();
-const PORT = process.env.PORT || 5000;
+const cors = require("cors");
+const { GoogleGenerativeAI } = require("@google/generative-ai");
+const jwt = require("jsonwebtoken");
 
-// Middleware
+const app = express();
+const PORT = 5000;
+
 app.use(cors());
 app.use(express.json());
 
-// Test Route
-app.get("/", (req, res) => {
-  res.send("✅ Server is running smoothly!");
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+
+async function getAIResponse(userInput) {
+    try {
+        const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+        const result = await model.generateContent(userInput);
+        const response = result.text();
+        return response;
+    } catch (error) {
+        console.error("Error with Gemini AI:", error.message);
+        return "AI service is currently unavailable.";
+    }
+}
+
+app.post("/recommend-courses", async (req, res) => {
+    const userInput = req.body.userInput;
+    if (!userInput) {
+        return res.status(400).json({ error: "User input is required." });
+    }
+
+    try {
+        const aiResponse = await getAIResponse(userInput);
+        res.json({ recommendation: aiResponse });
+    } catch (error) {
+        res.status(500).json({ error: "Something went wrong!" });
+    }
 });
 
-// Start Server
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+// Load Firebase service account key//
+/*nst serviceAccount = JSON.parse(fs.readFileSync("./firebase-key.json", "utf8"));*/
+const serviceAccount = JSON.parse(process.env.FIREBASE_CREDENTIALS);
+
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
 });
 
+const auth = admin.auth(); // Declare only once, outside the routes
 
 // Test server
 app.get("/", (req, res) => {
@@ -159,7 +190,7 @@ app.post("/login", async (req, res) => {
     const userData = userSnapshot.docs[0].data();
 
     // Generate JWT Token
-    const token = jwt.sign({ uid: userSnapshot.docs[0].id },process.env.JWT_SECRET , { expiresIn: "1h" });
+    const token = jwt.sign({ uid }, process.env.JWT_SECRET, { expiresIn: "1h" });
 
     res.json({ message: "Login successful", token, user: userData });
   } catch (error) {
@@ -193,7 +224,7 @@ app.post("/google-signin", async (req, res) => {
     }
 
     // Generate JWT Token
-    const token = jwt.sign({ uid }, "your-secret-key", { expiresIn: "1h" });
+    const token = jwt.sign({ uid }, "process.env.JWT_SECRET");
 
     res.json({ message: "Google sign-in successful", token, uid });
   } catch (error) {
@@ -224,6 +255,3 @@ app.use("/api/youtube", youtubeRoutes);
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
- 
-
-

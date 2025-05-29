@@ -1,0 +1,522 @@
+const videos = [
+    {
+      videoId: "ToLypwVgYmw",
+      title: "Full-Stack or Web Development: Which should you learn?",
+      thumbnail: "https://i.ytimg.com/vi/ToLypwVgYmw/hqdefault.jpg",
+      mainCourse: "Tech & Programming",
+      subCourse: "Full Stack Web Development",
+      level: "beginner",
+      duration: "short",
+      language: "English"
+    },
+    {
+      videoId: "QaU6gEtOwyE",
+      title: "Roadmap to Web Development | for Students",
+      thumbnail: "https://i.ytimg.com/vi/QaU6gEtOwyE/hqdefault.jpg",
+      mainCourse: "Tech & Programming",
+      subCourse: "Full Stack Web Development",
+      level: "beginner",
+      duration: "short",
+      language: "English"
+    },
+    {
+      videoId: "aXcuz6fn8_w",
+      title: "The Untold History of Web Development",
+      thumbnail: "https://i.ytimg.com/vi/aXcuz6fn8_w/hqdefault.jpg",
+      mainCourse: "Tech & Programming",
+      subCourse: "Full Stack Web Development",
+      level: "beginner",
+      duration: "short",
+      language: "English"
+    },
+    {
+      videoId: "9oKcIcvzqrs",
+      title: "Power of CSS Web design like pro",
+      thumbnail: "https://i.ytimg.com/vi/9oKcIcvzqrs/hqdefault.jpg",
+      mainCourse: "Tech & Programming",
+      subCourse: "Frontend Development",
+      level: "intermediate",
+      duration: "medium",
+      language: "English"
+    },
+    {
+      videoId: "4WjtQjPQGIs",
+      title: "Web Development Complete RoadMap for 2025",
+      thumbnail: "https://i.ytimg.com/vi/4WjtQjPQGIs/hqdefault.jpg",
+      mainCourse: "Tech & Programming",
+      subCourse: "Full Stack Web Development",
+      level: "beginner",
+      duration: "long",
+      language: "English"
+    }
+  ];
+
+  [  {
+      videoId: "DP0TKM0S2-8",
+      title: "Data Science vs Machine Learning – What's The Difference | Data Science Tutorial | Simplilearn",
+      thumbnail: "https://i.ytimg.com/vi/DP0TKM0S2-8/hqdefault.jpg",
+      mainCourse: "Tech & Programming",
+      subCourse: "Data Science & Machine Learning",
+      level: "beginner",
+      duration: "medium",
+      language: "English"
+    },
+    {
+      videoId: "rLvpY2v9hWQ",
+      title: "Data Scientist vs Machine Learning Engineer | DS vs ML",
+      thumbnail: "https://i.ytimg.com/vi/rLvpY2v9hWQ/hqdefault.jpg",
+      mainCourse: "Tech & Programming",
+      subCourse: "Data Science & Machine Learning",
+      level: "intermediate",
+      duration: "medium",
+      language: "English"
+    },
+    {
+      videoId: "Up6KLx3m2ww",
+      title: "Machine Learning Algorithms | Machine Learning Tutorial | Data Science Training | Edureka",
+      thumbnail: "https://i.ytimg.com/vi/Up6KLx3m2ww/hqdefault.jpg",
+      mainCourse: "Tech & Programming",
+      subCourse: "Data Science & Machine Learning",
+      level: "intermediate",
+      duration: "long",
+      language: "English"
+    },
+    {
+      videoId: "YhIvnNAK81Q",
+      title: "Data Science vs Machine Learning explained in 20 minutes | Data Science Course | Great Learning",
+      thumbnail: "https://i.ytimg.com/vi/YhIvnNAK81Q/hqdefault.jpg",
+      mainCourse: "Tech & Programming",
+      subCourse: "Data Science & Machine Learning",
+      level: "beginner",
+      duration: "short",
+      language: "English"
+    },
+    {
+      videoId: "vNc2z2u_nh0",
+      title: "AI vs ML vs DL vs Data Science - Difference Explained | Simplilearn",
+      thumbnail: "https://i.ytimg.com/vi/vNc2z2u_nh0/hqdefault.jpg",
+      mainCourse: "Tech & Programming",
+      subCourse: "AI & Deep Learning",
+      level: "intermediate",
+      duration: "medium",
+      language: "English"
+    }
+  ];
+  [
+    {
+      "videoId": "qYNweeDHiyU",
+      "title": "AI, Machine Learning, Deep Learning and Generative AI Explained",
+      "thumbnail": "https://i.ytimg.com/vi/qYNweeDHiyU/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "AI & Deep Learning",
+      "level": "Beginner",
+      "duration": "Medium",
+      "language": "English"
+    },
+    {
+      "videoId": "6M5VXKLf4D4",
+      "title": "Deep Learning | What is Deep Learning? | Deep Learning Tutorial For Beginners | 2023 | Simplilearn",
+      "thumbnail": "https://i.ytimg.com/vi/6M5VXKLf4D4/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "AI & Deep Learning",
+      "level": "Beginner",
+      "duration": "Long",
+      "language": "English"
+    },
+    {
+      "videoId": "PopKlyqTPAI",
+      "title": "AI vs ML vs DL vs DS: What's the Difference?",
+      "thumbnail": "https://i.ytimg.com/vi/PopKlyqTPAI/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "AI & Deep Learning",
+      "level": "Beginner",
+      "duration": "Medium",
+      "language": "English"
+    },
+    {
+      "videoId": "J4Qsr93L1qs",
+      "title": "What's the Difference Between AI, Machine Learning, and Deep Learning?",
+      "thumbnail": "https://i.ytimg.com/vi/J4Qsr93L1qs/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "AI & Deep Learning",
+      "level": "Beginner",
+      "duration": "Short",
+      "language": "English"
+    },
+    {
+      "videoId": "CxT5DVZmWCU",
+      "title": "In Simple Terms - AI vs Machine Learning vs Deep Learning",
+      "thumbnail": "https://i.ytimg.com/vi/CxT5DVZmWCU/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "AI & Deep Learning",
+      "level": "Beginner",
+      "duration": "Short",
+      "language": "English"
+    },
+    {
+      "videoId": "wIeYP8wDxt2rSNfQeNbnUmgbCcY",
+      "title": "Advanced AI Concepts: Deep Learning in Practice",
+      "thumbnail": "https://i.ytimg.com/vi/wIeYP8wDxt2rSNfQeNbnUmgbCcY/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "AI & Deep Learning",
+      "level": "Advanced",
+      "duration": "Long",
+      "language": "English"
+    }
+  ]
+  [
+    {
+      "videoId": "vK4Mno4QYqk",
+      "title": "CYBERSECURITY RoadMap: How to become Ethical Hacker in 2024?",
+      "thumbnail": "https://i.ytimg.com/vi/vK4Mno4QYqk/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "Cybersecurity & Ethical Hacking",
+      "level": "Beginner",
+      "duration": "Medium",
+      "language": "English"
+    },
+    {
+      "videoId": "XLvPpirlmEs",
+      "title": "What Is Ethical Hacking? | Ethical Hacking In 8 Minutes | Simplilearn",
+      "thumbnail": "https://i.ytimg.com/vi/XLvPpirlmEs/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "Cybersecurity & Ethical Hacking",
+      "level": "Beginner",
+      "duration": "Short",
+      "language": "English"
+    },
+    {
+      "videoId": "fG37nllryEU",
+      "title": "🔥Salary of Cyber Security Engineer | How Much does a Cyber Security Engineer Make #Simplilearn",
+      "thumbnail": "https://i.ytimg.com/vi/fG37nllryEU/hqdefault.jpg",
+      "mainCourse": "Business & Finance",
+      "subCourse": "Entrepreneurship & Startups",
+      "level": "Intermediate",
+      "duration": "Short",
+      "language": "English"
+    },
+    {
+      "videoId": "w6Pz9l8JiyQ",
+      "title": "🔥 Cybersecurity vs. Ethical Hacking: Which One Are You? | Simplilearn #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/w6Pz9l8JiyQ/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "Cybersecurity & Ethical Hacking",
+      "level": "Beginner",
+      "duration": "Short",
+      "language": "English"
+    },
+    {
+      "videoId": "rjT3vmeRy58",
+      "title": "Cybersecurity Roadmap 2023! #cybersecurity",
+      "thumbnail": "https://i.ytimg.com/vi/rjT3vmeRy58/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "Cybersecurity & Ethical Hacking",
+      "level": "Intermediate",
+      "duration": "Medium",
+      "language": "English"
+    }
+  ]
+  [
+    {
+      "videoId": "gjeFObDO42E",
+      "title": "Make $100K as a Blockchain Developer | BIGGEST Opportunities! #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/gjeFObDO42E/mqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "Blockchain & Web3 Development",
+      "level": "Intermediate",
+      "duration": "Short",
+      "language": "English"
+    },
+    {
+      "videoId": "8hk23nL16NM",
+      "title": "19 year old shares complete blockchain development roadmap.",
+      "thumbnail": "https://i.ytimg.com/vi/8hk23nL16NM/mqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "Blockchain & Web3 Development",
+      "level": "Beginner",
+      "duration": "Medium",
+      "language": "English"
+    },
+    {
+      "videoId": "NCtxFydDSN4",
+      "title": "Blockchain Developer Roadmap | How to Become Blockchain Developer | Roadmap to Blockchain Developer",
+      "thumbnail": "https://i.ytimg.com/vi/NCtxFydDSN4/mqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "Blockchain & Web3 Development",
+      "level": "Intermediate",
+      "duration": "Medium",
+      "language": "English"
+    },
+    {
+      "videoId": "ezIrcYMvNtI",
+      "title": "Create a blockchain/web3 app #web3 #nft",
+      "thumbnail": "https://i.ytimg.com/vi/ezIrcYMvNtI/mqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "Blockchain & Web3 Development",
+      "level": "Advanced",
+      "duration": "Medium",
+      "language": "English"
+    },
+    {
+      "videoId": "wHTcrmhskto",
+      "title": "Is Web3 all Hype? Top 10 Web 3.0 Questions & Answers",
+      "thumbnail": "https://i.ytimg.com/vi/wHTcrmhskto/mqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "Blockchain & Web3 Development",
+      "level": "Beginner",
+      "duration": "Medium",
+      "language": "English"
+    }
+  ]
+  [
+    {
+      "videoId": "lENeZmjD2zc",
+      "title": "Should You Learn AWS, DevOps & Cloud Computing in 2025?",
+      "thumbnail": "https://i.ytimg.com/vi/lENeZmjD2zc/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "DevOps & Cloud Computing",
+      "level": "Intermediate",
+      "duration": "Medium",
+      "language": "English"
+    },
+    {
+      "videoId": "fHvmIP7Gy38",
+      "title": "DevOps And Cloud Computing In 10 Minutes | Introduction to Cloud Computing and DevOps | Simplilearn",
+      "thumbnail": "https://i.ytimg.com/vi/fHvmIP7Gy38/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "DevOps & Cloud Computing",
+      "level": "Beginner",
+      "duration": "Short",
+      "language": "English"
+    },
+    {
+      "videoId": "h7LDnVsNRVI",
+      "title": "What is DevOps? DevOps Explained | Simplest Explanation in Hindi",
+      "thumbnail": "https://i.ytimg.com/vi/h7LDnVsNRVI/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "DevOps & Cloud Computing",
+      "level": "Beginner",
+      "duration": "Short",
+      "language": "Hindi"
+    },
+    {
+      "videoId": "8ZFIhs3pTd0",
+      "title": "DevOps Engineer vs Cloud Engineer #shorts #simplilearn",
+      "thumbnail": "https://i.ytimg.com/vi/8ZFIhs3pTd0/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "DevOps & Cloud Computing",
+      "level": "Beginner",
+      "duration": "Short",
+      "language": "English"
+    },
+    {
+      "videoId": "Xrgk023l4lI",
+      "title": "DevOps In 5 Minutes | What Is DevOps?| DevOps Explained | DevOps Tutorial For Beginners |Simplilearn",
+      "thumbnail": "https://i.ytimg.com/vi/Xrgk023l4lI/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "DevOps & Cloud Computing",
+      "level": "Beginner",
+      "duration": "Short",
+      "language": "English"
+    }
+  ]
+  [
+    {
+      "videoId": "yye7rSsiV6k",
+      "title": "The Complete App Development Roadmap",
+      "thumbnail": "https://i.ytimg.com/vi/yye7rSsiV6k/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "Android and iOS App Development",
+      "level": "beginner",
+      "duration": "long",
+      "language": "English"
+    },
+    {
+      "videoId": "ddkIt_sW8bo",
+      "title": "Writing IOS and Android apps simultaneously?",
+      "thumbnail": "https://i.ytimg.com/vi/ddkIt_sW8bo/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "Android and iOS App Development",
+      "level": "intermediate",
+      "duration": "short",
+      "language": "English"
+    },
+    {
+      "videoId": "NMb4RDpbRXs",
+      "title": "Building a Mobile App in 2025: The BEST Technologies",
+      "thumbnail": "https://i.ytimg.com/vi/NMb4RDpbRXs/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "Android and iOS App Development",
+      "level": "advanced",
+      "duration": "medium",
+      "language": "English"
+    },
+    {
+      "videoId": "7nQsQ0rvYqQ",
+      "title": "How to Start App Development? Complete RoadMap | 2024",
+      "thumbnail": "https://i.ytimg.com/vi/7nQsQ0rvYqQ/hqdefault.jpg",
+      "mainCourse": "Tech & Programming",
+      "subCourse": "Android and iOS App Development",
+      "level": "beginner",
+      "duration": "medium",
+      "language": "English"
+    }
+  ]
+  [
+    {
+      "videoId": "UbhHEK_5Ssg",
+      "title": "Use Grok AI to Earn Money from Trading | Crypto & Share Market Tips",
+      "thumbnail": "https://i.ytimg.com/vi/UbhHEK_5Ssg/hqdefault.jpg",
+      "mainCourse": "Business & Finance",
+      "subCourse": "Stock Market & Crypto Trading",
+      "level": "Intermediate",
+      "duration": "Medium",
+      "language": "Hindi"
+    },
+    {
+      "videoId": "V4lScsjToxA",
+      "title": "💰Top 5 Crypto For High Returns🔥#crypto #cryptocurrency #trading",
+      "thumbnail": "https://i.ytimg.com/vi/V4lScsjToxA/hqdefault.jpg",
+      "mainCourse": "Business & Finance",
+      "subCourse": "Stock Market & Crypto Trading",
+      "level": "Beginner",
+      "duration": "Medium",
+      "language": "English"
+    },
+    {
+      "videoId": "RcO312nl2qI",
+      "title": "$80 Investment $4200 Bitcoin Trading Profit 🔥🔥🔥 #cryptotrading #Bitcoin #trader",
+      "thumbnail": "https://i.ytimg.com/vi/RcO312nl2qI/hqdefault.jpg",
+      "mainCourse": "Business & Finance",
+      "subCourse": "Stock Market & Crypto Trading",
+      "level": "Advanced",
+      "duration": "Short",
+      "language": "English"
+    },
+    {
+      "videoId": "6TLkJm5R6j8",
+      "title": "Bitcoin Trading in Binance | Loss turn into profit | Futures Trading",
+      "thumbnail": "https://i.ytimg.com/vi/6TLkJm5R6j8/hqdefault.jpg",
+      "mainCourse": "Business & Finance",
+      "subCourse": "Stock Market & Crypto Trading",
+      "level": "Intermediate",
+      "duration": "Medium",
+      "language": "Hindi"
+    },
+    {
+      "videoId": "nSVe_ysvZHo",
+      "title": "Crypto Vs Stock Market  #Jeetshah",
+      "thumbnail": "https://i.ytimg.com/vi/nSVe_ysvZHo/hqdefault.jpg",
+      "mainCourse": "Business & Finance",
+      "subCourse": "Stock Market & Crypto Trading",
+      "level": "Beginner",
+      "duration": "Short",
+      "language": "Hindi"
+    }
+  ]
+  
+  [
+    {
+      videoId: "MYE6T_gd7H0",
+      title: "SEO In 5 Minutes | What Is SEO And How Does It Work | SEO Explained | SEO Tutorial | Simplilearn",
+      thumbnail: "https://i.ytimg.com/vi/MYE6T_gd7H0/hqdefault.jpg",
+      mainCourse: "Business & Finance",
+      subCourse: "Digital Marketing & SEO",
+      level: "Beginner",
+      duration: "Short",
+      language: "English"
+    },
+    {
+      videoId: "jPpA49i_-ns",
+      title: "🔥 SEO Salary In India | How To Learn SEO ? #Shorts #Simplilearn",
+      thumbnail: "https://i.ytimg.com/vi/jPpA49i_-ns/hqdefault.jpg",
+      mainCourse: "Business & Finance",
+      subCourse: "Digital Marketing & SEO",
+      level: "Beginner",
+      duration: "Short",
+      language: "English"
+    },
+    {
+      videoId: "bLUkIgY8MTE",
+      title: "What is SEO and How Does it Work? | Types of SEO | Search Engine Optimization Full Information",
+      thumbnail: "https://i.ytimg.com/vi/bLUkIgY8MTE/hqdefault.jpg",
+      mainCourse: "Business & Finance",
+      subCourse: "Digital Marketing & SEO",
+      level: "Intermediate",
+      duration: "Medium",
+      language: "English"
+    },
+    {
+      videoId: "2AYjYIJwPQg",
+      title: "🔥Salary of SEO Specialist | SEO Skills for 2025 #Shorts | Simplilearn",
+      thumbnail: "https://i.ytimg.com/vi/2AYjYIJwPQg/hqdefault.jpg",
+      mainCourse: "Business & Finance",
+      subCourse: "Digital Marketing & SEO",
+      level: "Intermediate",
+      duration: "Short",
+      language: "English"
+    },
+    {
+      videoId: "5Zz8VbFixOI",
+      title: "Understand search engine optimization (SEO) | Google Digital Marketing & E-commerce Certificate",
+      thumbnail: "https://i.ytimg.com/vi/5Zz8VbFixOI/hqdefault.jpg",
+      mainCourse: "Business & Finance",
+      subCourse: "Digital Marketing & SEO",
+      level: "Advanced",
+      duration: "Medium",
+      language: "English"
+    }
+  ];
+  [
+    {
+      "videoId": "QxzyaWJ468E",
+      "title": "ASHNEER GROVER: DON’T START A BUSINESS Before Watching THIS 🤯",
+      "thumbnail": "https://i.ytimg.com/vi/QxzyaWJ468E/hqdefault.jpg",
+      "mainCourse": "Business & Finance",
+      "subCourse": "Entrepreneurship & Startups",
+      "level": "Intermediate",
+      "duration": "Medium",
+      "language": "English"
+    },
+    {
+      "videoId": "yn1LAb5waIs",
+      "title": "What is Entrepreneurship in Hindi by Sandeep Maheshwari | #entrepreneur",
+      "thumbnail": "https://i.ytimg.com/vi/yn1LAb5waIs/hqdefault.jpg",
+      "mainCourse": "Business & Finance",
+      "subCourse": "Entrepreneurship & Startups",
+      "level": "Beginner",
+      "duration": "Medium",
+      "language": "Hindi"
+    },
+    {
+      "videoId": "eHJnEHyyN1Y",
+      "title": "6 Tips on Being a Successful Entrepreneur | John Mullins | TED",
+      "thumbnail": "https://i.ytimg.com/vi/eHJnEHyyN1Y/hqdefault.jpg",
+      "mainCourse": "Business & Finance",
+      "subCourse": "Entrepreneurship & Startups",
+      "level": "Advanced",
+      "duration": "Medium",
+      "language": "English"
+    },
+    {
+      "videoId": "gm3ITLOJkFc",
+      "title": "The Last ₹1 Crore Plan #financewithsharan #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/gm3ITLOJkFc/hqdefault.jpg",
+      "mainCourse": "Business & Finance",
+      "subCourse": "Stock Market & Crypto Trading",
+      "level": "Intermediate",
+      "duration": "Short",
+      "language": "English"
+    },
+    {
+      "videoId": "pKlUy-ofka0",
+      "title": "Why Boring Businesses Make More Profit #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/pKlUy-ofka0/hqdefault.jpg",
+      "mainCourse": "Business & Finance",
+      "subCourse": "Entrepreneurship & Startups",
+      "level": "Intermediate",
+      "duration": "Short",
+      "language": "English"
+    }
+  ]
+  
