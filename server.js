@@ -5,7 +5,6 @@ const express = require("express");
 const cors = require("cors");
 const jwt = require("jsonwebtoken");
 const admin = require("firebase-admin");
-const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 //Debugging: Ensure environment variables are loaded
 console.log("Checking Environment Variables...");
