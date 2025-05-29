@@ -50,8 +50,8 @@ async function getAIResponse(userInput) {
     try {
         const model = genAI.getGenerativeModel({ model: "gemini-pro" });
         const result = await model.generateContent(userInput);
-        const response = result.text();
-        return response;
+        const response = await result.response;
+        return response.text();   
     } catch (error) {
         console.error("Error with Gemini AI:", error.message);
         return "AI service is currently unavailable.";
