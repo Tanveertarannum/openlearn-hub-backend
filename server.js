@@ -48,14 +48,14 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 async function getAIResponse(userInput) {
     try {
-        const model = genAI.getGenerativeModel({ model: "gemini-pro" });
-        const result = await model.generateContent(userInput);
-        const response = await result.response;
-        return response.text();   
-    } catch (error) {
-        console.error("Error with Gemini AI:", error.message);
-        return "AI service is currently unavailable.";
-    }
+    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+    const result = await model.generateContent([userInput]); // Notice the array
+    const response = await result.response;
+    return response.text(); // This extracts the content
+  } catch (error) {
+    console.error("Error with Gemini AI:", error.message);
+    return "AI service is currently unavailable.";
+  }
 }
 
 app.post("/recommend-courses", async (req, res) => {
