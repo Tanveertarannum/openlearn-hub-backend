@@ -1,18 +1,16 @@
-const jwt = require("jsonwebtoken");
 require("dotenv").config();
-require('dotenv').config();
-const fs = require("fs");
-const admin = require("firebase-admin");
-const express = require("express");
-const admin = require("firebase-admin");
-const cors = require("cors");
 const fs = require("fs");
 const path = require("path");
+const express = require("express");
+const cors = require("cors");
+const jwt = require("jsonwebtoken");
+const admin = require("firebase-admin");
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 //Debugging: Ensure environment variables are loaded
 console.log("Checking Environment Variables...");
-if (!process.env.FIREBASE_KEY_PATH) {
-  console.error("ERROR: FIREBASE_KEY_PATH is not set in .env!");
+if (!process.env.FIREBASE_CREDENTIALS) {
+  console.error("ERROR: FIREBASE_CREDENTIALS is not set in .env!");
   process.exit(1);
 }
 if (!process.env.GEMINI_API_KEY) {
@@ -25,54 +23,21 @@ if (!process.env.JWT_SECRET) {
 }
 console.log("Environment Variables Loaded Successfully!");
 
-// Validate Firebase JSON Path
-const firebaseKeyPath = process.env.FIREBASE_KEY_PATH;
-console.log("Using Firebase Key Path:", firebaseKeyPath);
-
-if (!fs.existsSync(firebaseKeyPath)) {
-  console.error("Firebase key file not found at", firebaseKeyPath);
-  process.exit(1);
-}
-
-try {
-  const rawData = fs.readFileSync(firebaseKeyPath, "utf8").trim();
-  console.log("Raw Data Read from Firebase JSON:", rawData);
-
-  if (!rawData) throw new Error("firebase-key.json is empty!");
-
-  const serviceAccount = JSON.parse(rawData);
-  if (!serviceAccount.private_key) throw new Error("Private key missing!");
-
-  serviceAccount.private_key = serviceAccount.private_key.replace(/\\n/g, "\n");
-
-  console.log("Firebase Config Loaded:", serviceAccount.project_id);
-
-  admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount),
-  });
-
-  console.log("Firebase Initialized Successfully!");
-} catch (error) {
-  console.error("Error parsing Firebase JSON:", error);
-  process.exit(1);
-}
-
-
 // Initialize Firebase (Only Once)
 if (!admin.apps.length) {
+  const serviceAccount = JSON.parse(process.env.FIREBASE_CREDENTIALS);
+  serviceAccount.private_key = serviceAccount.private_key.replace(/\\n/g, "\n");
+
   admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
   });
+
   console.log("Firebase Admin SDK Initialized Successfully!");
 } else {
   console.log("Firebase Admin SDK Already Initialized!");
 }
 
 // Initialize Express App
-const cors = require("cors");
-const { GoogleGenerativeAI } = require("@google/generative-ai");
-const jwt = require("jsonwebtoken");
-
 const app = express();
 const PORT = 5000;
 
@@ -105,15 +70,6 @@ app.post("/recommend-courses", async (req, res) => {
     } catch (error) {
         res.status(500).json({ error: "Something went wrong!" });
     }
-});
-
-// Load Firebase service account key//
-/*nst serviceAccount = JSON.parse(fs.readFileSync("./firebase-key.json", "utf8"));*/
-const serviceAccount = JSON.parse(process.env.FIREBASE_CREDENTIALS);
-
-
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
 });
 
 const auth = admin.auth(); // Declare only once, outside the routes
@@ -190,6 +146,7 @@ app.post("/login", async (req, res) => {
     const userData = userSnapshot.docs[0].data();
 
     // Generate JWT Token
+    const uid = userSnapshot.docs[0].id;
     const token = jwt.sign({ uid }, process.env.JWT_SECRET, { expiresIn: "1h" });
 
     res.json({ message: "Login successful", token, user: userData });
@@ -224,7 +181,7 @@ app.post("/google-signin", async (req, res) => {
     }
 
     // Generate JWT Token
-    const token = jwt.sign({ uid }, "process.env.JWT_SECRET");
+    const token = jwt.sign({ uid }, process.env.JWT_SECRET);
 
     res.json({ message: "Google sign-in successful", token, uid });
   } catch (error) {
