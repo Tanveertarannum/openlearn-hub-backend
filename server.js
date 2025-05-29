@@ -43,8 +43,6 @@ const PORT = 5000;
 app.use(cors());
 app.use(express.json());
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-
 const fetch = require("node-fetch");
 
 async function getAIResponse(userInput) {
