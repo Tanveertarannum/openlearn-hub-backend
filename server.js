@@ -46,14 +46,37 @@ app.use(express.json());
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
+const fetch = require("node-fetch");
+
 async function getAIResponse(userInput) {
-    try {
-    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
-    const result = await model.generateContent([userInput]); // Notice the array
-    const response = await result.response;
-    return response.text(); // This extracts the content
-  } catch (error) {
-    console.error("Error with Gemini AI:", error.message);
+  try {
+    const response = await fetch(
+      "https://generativelanguage.googleapis.com/v1beta/models/chat-bison-001:generateMessage",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${process.env.GEMINI_API_KEY}`,
+        },
+        body: JSON.stringify({
+          prompt: {
+            messages: [{ content: userInput }],
+          },
+          temperature: 0.7,
+        }),
+      }
+    );
+
+    const data = await response.json();
+
+    if (data?.candidates?.[0]?.content) {
+      return data.candidates[0].content;
+    } else {
+      console.error("Gemini error response:", data);
+      return "AI service is currently unavailable.";
+    }
+  } catch (err) {
+    console.error("Error with Gemini fetch:", err);
     return "AI service is currently unavailable.";
   }
 }
