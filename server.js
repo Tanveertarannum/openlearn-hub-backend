@@ -5,7 +5,7 @@ const express = require("express");
 const cors = require("cors");
 const jwt = require("jsonwebtoken");
 const admin = require("firebase-admin");
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+const fetch = require("node-fetch");
 
 //Debugging: Ensure environment variables are loaded
 console.log("Checking Environment Variables...");
