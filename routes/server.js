@@ -51,7 +51,7 @@ app.use(express.json());
 async function getAIResponse(userInput) {
   try {
     const response = await fetch(
-      "https://generativelanguage.googleapis.com/v1beta/models/chat-bison-001:generateMessage",
+      "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent",
       {
         method: "POST",
         headers: {
@@ -59,19 +59,19 @@ async function getAIResponse(userInput) {
           "x-goog-api-key": process.env.GEMINI_API_KEY,
         },
         body: JSON.stringify({
-          prompt: {
-            messages: [{ content: userInput }]
-          },
-          temperature: 0.7
-        })
+          contents: [
+            {
+              parts: [{ text: userInput }]
+            }
+          ]
+        }),
       }
     );
 
     const data = await response.json();
 
-    // For chat-bison, response structure is: data.candidates[0].content
-    if (data?.candidates?.[0]?.content) {
-      return data.candidates[0].content;
+    if (data?.candidates?.[0]?.content?.parts?.[0]?.text) {
+      return data.candidates[0].content.parts[0].text;
     } else {
       console.error("Gemini error response:", data);
       return "AI service is currently unavailable.";
