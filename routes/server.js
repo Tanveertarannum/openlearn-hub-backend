@@ -215,7 +215,7 @@ app.post("/google-signin", async (req, res) => {
 });
 
 // AUTH MIDDLEWARE
-const authMiddleware = require("./authMiddleware");
+const authMiddleware = require("../authMiddleware");
 
 // PROTECTED ROUTES (Require JWT Token)
 app.get("/profile", authMiddleware, (req, res) => {
@@ -231,7 +231,7 @@ app.post("/create-post", authMiddleware, (req, res) => {
   res.json({ message: "Post created successfully!", title, content });
 });
  // Your new YouTube route
-const youtubeRoutes = require("./routes/youtubeRoutes");
+const youtubeRoutes = require("./youtubeRoutes");
 app.use("/api/youtube", youtubeRoutes);
 
 app.listen(PORT, () => {
