@@ -51,22 +51,23 @@ app.use(express.json());
 async function getAIResponse(userInput) {
   try {
     const response = await fetch(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro-1.5:generateContent",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "x-goog-api-key": process.env.GEMINI_API_KEY,
-        },
-        body: JSON.stringify({
-          contents: [
-            {
-              parts: [{ text: userInput }]
-            }
-          ]
-        }),
-      }
-    );
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+  {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-goog-api-key": process.env.GEMINI_API_KEY,
+    },
+    body: JSON.stringify({
+      contents: [
+        {
+          parts: [{ text: userInput }]
+        }
+      ]
+    }),
+  }
+);
+
 
     const data = await response.json();
 
