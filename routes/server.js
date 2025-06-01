@@ -236,3 +236,76 @@ app.use("/api/youtube", youtubeRoutes);
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
+
+//quiz
+app.post("/generate-quiz", async (req, res) => {
+  const { videoTitle, difficulty = "beginner", topic } = req.body;
+
+  if (!videoTitle) {
+    return res.status(400).json({ error: "Video title is required" });
+  }
+
+  const prompt = `Generate 10 multiple choice questions (MCQs) with 4 options each and answers based on the video titled "${videoTitle}". Each question should match the "${difficulty}" level and topic "${topic}". Format:
+[
+  {
+    "question": "What is ...?",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B"
+  },
+  ...
+]`;
+
+  try {
+    const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
+        "Content-Type": "application/json",
+        "HTTP-Referer": "http://localhost:5000",
+        "X-Title": "OpenLearnHub"
+      },
+      body: JSON.stringify({
+        model: "mistralai/mixtral-8x7b",
+        messages: [
+          { role: "system", content: "You are a quiz master AI for educational videos." },
+          { role: "user", content: prompt }
+        ]
+      })
+    });
+
+    const data = await response.json();
+    const rawOutput = data?.choices?.[0]?.message?.content;
+
+    const quizJSON = JSON.parse(rawOutput);
+    res.json({ quiz: quizJSON });
+  } catch (err) {
+    console.error("Quiz Generation Error:", err);
+    res.status(500).json({ error: "Failed to generate quiz." });
+  }
+});
+
+//submit quiz 
+app.post("/submit-quiz", async (req, res) => {
+  const { uid, videoId, score, total, difficulty } = req.body;
+
+  if (!uid || !videoId || score == null || !total) {
+    return res.status(400).json({ error: "Incomplete quiz submission." });
+  }
+
+  try {
+    const firestore = admin.firestore();
+    await firestore.collection("quizResults").add({
+      uid,
+      videoId,
+      score,
+      total,
+      difficulty,
+      timestamp: new Date()
+    });
+
+    res.status(200).json({ message: "Quiz submitted successfully!" });
+  } catch (err) {
+    console.error("Error storing quiz result:", err);
+    res.status(500).json({ error: "Could not store quiz result." });
+  }
+});
