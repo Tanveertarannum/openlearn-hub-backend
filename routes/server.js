@@ -274,28 +274,34 @@ app.post("/generate-quiz", async (req, res) => {
     });
 
     const data = await response.json();
-    const rawOutput = data?.choices?.[0]?.message?.content;
-    fs.writeFileSync("ai-output.txt", rawOutput); 
+const rawOutput = data?.choices?.[0]?.message?.content;
 
-    console.log("📦 AI Raw Output:", rawOutput);
-    console.log("🎯 Quiz Request Body:", req.body);
+if (!rawOutput) {
+  console.error("❌ AI returned undefined response content.");
+  return res.status(500).json({ error: "AI returned no quiz content." });
+}
 
-    let quizJSON = [];
+fs.writeFileSync("ai-output.txt", rawOutput); // Only writes if valid
 
-    try {
-      // Try extracting JSON array from AI response
-      const match = rawOutput.match(/\[\s*{[\s\S]*?}\s*\]/);
-      if (match) {
-        quizJSON = JSON.parse(match[0]);
-      } else {
-        throw new Error("⚠️ No valid JSON array found in AI response.");
-      }
-    } catch (e) {
-      console.error("❌ JSON parsing failed for quiz:", rawOutput);
-      return res.status(500).json({ error: "AI returned invalid quiz format." });
-    }
+console.log("📦 AI Raw Output:", rawOutput);
+console.log("🎯 Quiz Request Body:", req.body);
 
-    res.json({ quiz: quizJSON });
+let quizJSON = [];
+try {
+  const match = rawOutput.match(/\[\s*{[\s\S]*?}\s*\]/);
+  if (match) {
+    quizJSON = JSON.parse(match[0]);
+  } else {
+    console.error("⚠️ No valid JSON array found in AI response:", rawOutput);
+    return res.status(500).json({ error: "AI returned invalid quiz format." });
+  }
+} catch (e) {
+  console.error("❌ JSON parsing failed for quiz:", rawOutput);
+  return res.status(500).json({ error: "AI returned malformed JSON." });
+}
+
+res.json({ quiz: quizJSON });
+
 
   } catch (err) {
     console.error("Quiz Generation Error:", err);
