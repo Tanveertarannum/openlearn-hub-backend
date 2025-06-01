@@ -1,4 +1,5 @@
 require("dotenv").config();
+console.log("🔑 OPENROUTER_API_KEY:", process.env.OPENROUTER_API_KEY);
 const fs = require("fs");
 const path = require("path");
 const express = require("express");
@@ -13,8 +14,8 @@ if (!process.env.FIREBASE_CREDENTIALS) {
   console.error("ERROR: FIREBASE_CREDENTIALS is not set in .env!");
   process.exit(1);
 }
-if (!process.env.GEMINI_API_KEY) {
-  console.error("ERROR: GEMINI_API_KEY is missing!");
+if (!process.env.OPENROUTER_API_KEY) {
+  console.error("ERROR: OPENROUTER_API_KEY is missing!");
   process.exit(1);
 }
 if (!process.env.JWT_SECRET) {
@@ -50,34 +51,32 @@ app.use(express.json());
 
 async function getAIResponse(userInput) {
   try {
-    const response = await fetch(
-      "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "x-goog-api-key": process.env.GEMINI_API_KEY,
-        },
-        body: JSON.stringify({
-          contents: [
-            {
-              parts: [{ text: userInput }]
-            }
-          ]
-        }),
-      }
-    );
+    const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
+        "Content-Type": "application/json",
+        "HTTP-Referer": "http://localhost:5000", // or your actual domain
+        "X-Title": "OpenLearnHub"
+      },
+      body: JSON.stringify({
+        model: "mistralai/mistral-7b-instruct",  // FREE and chat-friendly
+        messages: [
+          { role: "system", content: "You are a helpful and friendly course recommendation assistant." },
+          { role: "user", content: userInput }
+        ]
+      })
+    });
 
     const data = await response.json();
-
-    if (data?.candidates?.[0]?.content?.parts?.[0]?.text) {
-      return data.candidates[0].content.parts[0].text;
+    if (data?.choices?.[0]?.message?.content) {
+      return data.choices[0].message.content;
     } else {
-      console.error("Gemini error response:", data);
+      console.error("OpenRouter response error:", data);
       return "AI service is currently unavailable.";
     }
-  } catch (err) {
-    console.error("Error with Gemini fetch:", err);
+  } catch (error) {
+    console.error("Error with OpenRouter fetch:", error);
     return "AI service is currently unavailable.";
   }
 }
