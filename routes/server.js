@@ -276,8 +276,17 @@ app.post("/generate-quiz", async (req, res) => {
     const data = await response.json();
     const rawOutput = data?.choices?.[0]?.message?.content;
 
-    const quizJSON = JSON.parse(rawOutput);
-    res.json({ quiz: quizJSON });
+let quizJSON = [];
+try {
+  quizJSON = JSON.parse(rawOutput);
+} catch (e) {
+  console.error("❌ JSON parsing failed for quiz:", rawOutput);
+  return res.status(500).json({ error: "AI returned invalid quiz format." });
+}
+
+console.log("🎯 Quiz Request Body:", req.body);
+res.json({ quiz: quizJSON });
+
   } catch (err) {
     console.error("Quiz Generation Error:", err);
     res.status(500).json({ error: "Failed to generate quiz." });
