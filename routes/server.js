@@ -261,7 +261,7 @@ app.post("/generate-quiz", async (req, res) => {
       headers: {
         "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
         "Content-Type": "application/json",
-        "HTTP-Referer": "http://localhost:5000",  // ✅ You can keep this or use your deployed URL
+        "HTTP-Referer": "http://localhost:5000",
         "X-Title": "OpenLearnHub"
       },
       body: JSON.stringify({
@@ -275,22 +275,24 @@ app.post("/generate-quiz", async (req, res) => {
 
     const data = await response.json();
     const rawOutput = data?.choices?.[0]?.message?.content;
+    fs.writeFileSync("ai-output.txt", rawOutput); 
 
-    console.log("📦 AI raw response:", rawOutput);
+    console.log("📦 AI Raw Output:", rawOutput);
     console.log("🎯 Quiz Request Body:", req.body);
 
     let quizJSON = [];
+
     try {
+      // Try extracting JSON array from AI response
       const match = rawOutput.match(/\[\s*{[\s\S]*?}\s*\]/);
       if (match) {
         quizJSON = JSON.parse(match[0]);
       } else {
-        console.error("⚠️ No valid JSON array found in AI response:", rawOutput);
-        return res.status(500).json({ error: "AI returned invalid quiz format." });
+        throw new Error("⚠️ No valid JSON array found in AI response.");
       }
     } catch (e) {
       console.error("❌ JSON parsing failed for quiz:", rawOutput);
-      return res.status(500).json({ error: "AI returned malformed JSON." });
+      return res.status(500).json({ error: "AI returned invalid quiz format." });
     }
 
     res.json({ quiz: quizJSON });
@@ -300,6 +302,7 @@ app.post("/generate-quiz", async (req, res) => {
     res.status(500).json({ error: "Failed to generate quiz." });
   }
 });
+
 
 //submit quiz 
 app.post("/submit-quiz", async (req, res) => {
