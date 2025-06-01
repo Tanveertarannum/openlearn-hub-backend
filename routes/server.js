@@ -237,7 +237,7 @@ app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
 
-//quiz
+// QUIZ GENERATION ROUTE
 app.post("/generate-quiz", async (req, res) => {
   const { videoTitle, difficulty = "beginner", topic } = req.body;
 
@@ -261,7 +261,7 @@ app.post("/generate-quiz", async (req, res) => {
       headers: {
         "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
         "Content-Type": "application/json",
-        "HTTP-Referer": "http://localhost:5000",
+        "HTTP-Referer": "http://localhost:5000",  // ✅ You can keep this or use your deployed URL
         "X-Title": "OpenLearnHub"
       },
       body: JSON.stringify({
@@ -276,25 +276,24 @@ app.post("/generate-quiz", async (req, res) => {
     const data = await response.json();
     const rawOutput = data?.choices?.[0]?.message?.content;
 
-console.log("📦 AI raw response:", rawOutput);
-console.log("🎯 Quiz Request Body:", req.body);
+    console.log("📦 AI raw response:", rawOutput);
+    console.log("🎯 Quiz Request Body:", req.body);
 
-let quizJSON = [];
-try {
-  const match = rawOutput.match(/\[\s*{[\s\S]*?}\s*\]/);
-  if (match) {
-    quizJSON = JSON.parse(match[0]);
-  } else {
-    console.error("⚠️ No valid JSON array found in AI response:", rawOutput);
-    return res.status(500).json({ error: "AI returned invalid quiz format." });
-  }
-} catch (e) {
-  console.error("❌ JSON parsing failed for quiz:", rawOutput);
-  return res.status(500).json({ error: "AI returned malformed JSON." });
-}
+    let quizJSON = [];
+    try {
+      const match = rawOutput.match(/\[\s*{[\s\S]*?}\s*\]/);
+      if (match) {
+        quizJSON = JSON.parse(match[0]);
+      } else {
+        console.error("⚠️ No valid JSON array found in AI response:", rawOutput);
+        return res.status(500).json({ error: "AI returned invalid quiz format." });
+      }
+    } catch (e) {
+      console.error("❌ JSON parsing failed for quiz:", rawOutput);
+      return res.status(500).json({ error: "AI returned malformed JSON." });
+    }
 
-console.log("🎯 Quiz Request Body:", req.body);
-res.json({ quiz: quizJSON });
+    res.json({ quiz: quizJSON });
 
   } catch (err) {
     console.error("Quiz Generation Error:", err);
