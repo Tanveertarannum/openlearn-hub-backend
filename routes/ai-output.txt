@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "A. Hyper Text Markup Language",
+      "B. High Transfer Machine Learning",
+      "C. Hyperlink and Text Markup Logic",
+      "D. Home Tool Management Language"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which CSS property controls text alignment?",
+    "options": [
+      "A. text-align",
+      "B. font-style",
+      "C. align-text",
+      "D. text-position"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What symbol is used for single-line comments in JavaScript?",
+    "options": [
+      "A. //",
+      "B. <!-- -->",
+      "C. /* */",
+      "D. #"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which method is used to add content at the end of an HTML element using JavaScript?",
+    "options": [
+      "A. appendChild()",
+      "B. insertAfter()",
+      "C. addContent()",
+      "D. placeEnd()"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the main purpose of Node.js in full-stack development?",
+    "options": [
+      "A. Server-side JavaScript execution",
+      "B. Client-side rendering",
+      "C. Database management",
+      "D. CSS preprocessing"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which HTTP method is typically used to retrieve data from a server?",
+    "options": [
+      "A. GET",
+      "B. POST",
+      "C. PUT",
+      "D. DELETE"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does the 'src' attribute specify in an HTML <img> tag?",
+    "options": [
+      "A. Image source URL",
+      "B. Image size ratio",
+      "C. Screen resolution",
+      "D. Alternate text"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of these is a front-end framework/library?",
+    "options": [
+      "A. React",
+      "B. Express",
+      "C. Django",
+      "D. Flask"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does API stand for in web development?",
+    "options": [
+      "A. Application Programming Interface",
+      "B. Automated Processing Interface",
+      "C. Advanced Programming Integration",
+      "D. Application Protocol Integration"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which CSS display property value makes elements appear side-by-side?",
+    "options": [
+      "A. inline-block",
+      "B. block",
+      "C. flex",
+      "D. none"
+    ],
+    "answer": "A"
+  }
+]

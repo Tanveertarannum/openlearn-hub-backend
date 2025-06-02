@@ -245,15 +245,23 @@ app.post("/generate-quiz", async (req, res) => {
     return res.status(400).json({ error: "Video title is required" });
   }
 
-  const prompt = `Generate 10 multiple choice questions (MCQs) with 4 options each and answers based on the video titled "${videoTitle}". Each question should match the "${difficulty}" level and topic "${topic}". Format:
+  const prompt = `
+Generate exactly 10 multiple-choice questions based on the video titled "${videoTitle}" (topic: ${topic}, difficulty: ${difficulty}).
+
+Each question must have this format only:
+{
+  "question": "string",
+  "options": ["A", "B", "C", "D"],
+  "answer": "A" | "B" | "C" | "D"
+}
+
+Output a valid JSON array ONLY, like this:
 [
-  {
-    "question": "What is ...?",
-    "options": ["A", "B", "C", "D"],
-    "answer": "B"
-  },
+  { "question": "...", "options": [...], "answer": "B" },
   ...
-]`;
+]
+DO NOT include explanations. Output ONLY the JSON array.
+`;
 
   try {
     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
