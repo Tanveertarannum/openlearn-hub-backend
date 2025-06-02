@@ -354,3 +354,30 @@ app.post("/submit-quiz", async (req, res) => {
     res.status(500).json({ error: "Could not store quiz result." });
   }
 });
+
+// GET QUIZ RESULTS for a specific user
+app.get("/quiz-results/:uid", async (req, res) => {
+  const { uid } = req.params;
+
+  if (!uid) {
+    return res.status(400).json({ error: "Missing UID" });
+  }
+
+  try {
+    const firestore = admin.firestore();
+    const snapshot = await firestore.collection("quizResults").where("uid", "==", uid).get();
+
+    if (snapshot.empty) {
+      return res.json([]); // Return empty array if no results
+    }
+
+    const results = [];
+    snapshot.forEach(doc => results.push(doc.data()));
+
+    res.json(results);
+  } catch (error) {
+    console.error("🔥 Failed to fetch quiz results:", error);
+    res.status(500).json({ error: "Failed to fetch quiz results" });
+  }
+});
+
