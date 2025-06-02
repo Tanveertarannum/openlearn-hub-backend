@@ -274,6 +274,7 @@ app.post("/generate-quiz", async (req, res) => {
     });
 
     const data = await response.json();
+    console.log("🧠 Full AI response:", data);
 const rawOutput = data?.choices?.[0]?.message?.content;
 
 if (!rawOutput) {
@@ -304,9 +305,16 @@ res.json({ quiz: quizJSON });
 
 
   } catch (err) {
-    console.error("Quiz Generation Error:", err);
-    res.status(500).json({ error: "Failed to generate quiz." });
+  console.error("Quiz Generation Error:", err);
+
+  // Log if OpenRouter sends an error message
+  if (err.response) {
+    const errorData = await err.response.json();
+    console.error("🛑 API Error Details:", errorData);
   }
+
+  res.status(500).json({ error: "Failed to generate quiz." });
+}
 });
 
 
