@@ -265,7 +265,7 @@ app.post("/generate-quiz", async (req, res) => {
         "X-Title": "OpenLearnHub"
       },
       body: JSON.stringify({
-        model: "mistralai/mixtral-8x7b",
+        model: "gryphe/mythomist-7b",
         messages: [
           { role: "system", content: "You are a quiz master AI for educational videos." },
           { role: "user", content: prompt }
