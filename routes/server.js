@@ -330,11 +330,14 @@ res.json({ quiz: quizJSON });
 app.post("/submit-quiz", async (req, res) => {
   const { uid, videoId, score, total, difficulty } = req.body;
 
+  console.log("✅ Submitting to backend:", uid, videoId, score, total);
+
   if (!uid || !videoId || score == null || !total) {
     return res.status(400).json({ error: "Incomplete quiz submission." });
   }
 
   try {
+    console.log("🔥 Submitting quiz result:", { uid, videoId, score, total, difficulty });
     const firestore = admin.firestore();
     await firestore.collection("quizResults").add({
       uid,
